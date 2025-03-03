@@ -1,0 +1,316 @@
+﻿
+@{
+    ViewBag.Title = "Xác Nhận Thanh Toán";
+}
+
+<html>
+<head>
+    <title>
+        Thông Tin Booking
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+    <style>
+
+        .containerpayment {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /*.steps {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+            .steps div {
+                flex: 1;
+                text-align: center;
+            }
+
+            .steps .active {
+                font-weight: bold;
+                color: #007bff;
+            }
+
+            .steps .inactive {
+                color: #999;
+            }*/
+        .steps {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+
+            .steps div {
+                width: 30%;
+                padding: 10px;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+        .inactive {
+            background-color: #e0e0e0;
+            color: #777;
+        }
+
+        .active {
+            background-color: #4caf50;
+            color: white;
+            font-weight: bold;
+        }
+
+        .steps span {
+            display: block;
+            font-size: 24px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .booking-info, .order-summary, .booking-details, .invoice-details, .passenger-list, .cancellation-policy {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .info-table, .details-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+            .info-table td, .details-table td, .details-table th {
+                padding: 8px;
+                border: 1px solid #ddd;
+            }
+
+                .info-table td:first-child {
+                    font-weight: 500;
+                    width: 150px;
+                }
+
+            .details-table th {
+                background-color: #f5f5f5;
+                font-weight: 500;
+            }
+
+            .details-table td {
+                text-align: center;
+            }
+
+            .details-table .left-align {
+                text-align: left;
+            }
+
+            .details-table .right-align {
+                text-align: right;
+            }
+
+        .total-amount {
+            color: #e53935;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+
+
+            .btn:hover {
+                background-color: #005bb5;
+            }
+
+        .note {
+            color: #e53935;
+            font-size: 12px;
+        }
+
+        .containerpayment {
+            margin-top: 30px;
+        }
+
+        .steps div.active span {
+            font-weight: bold;
+            color: #0073e6;
+        }
+
+        .confirmation-page {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="containerpayment">
+        <form asp-action="BookRoom" method="post">
+            <div class="steps">
+                <div class="inactive">
+                    <span>1</span>
+                    <p>NHẬP THÔNG TIN</p>
+                </div>
+                <div class="active">
+                    <span>2</span>
+                    <p>THANH TOÁN</p>
+                </div>
+                <div class="inactive">
+                    <span>3</span>
+                    <p>HOÀN TẤT</p>
+                </div>
+            </div>
+            <div class="booking-details" style="margin-top:50px;">
+                <table class="info-table">
+                    <div class="section-title">
+                        THÔNG TIN BOOKING
+                    </div>
+                    <tr>
+                        <td>
+                            Họ tên:
+                        </td>
+                        <td>
+                            @ViewBag.Name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:
+                        </td>
+                        <td>
+                            @ViewBag.Email
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Điện thoại:
+                        </td>
+                        <td>
+                            @ViewBag.Phone  @ViewBag.Title
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Giới tính:
+                        </td>
+                        <td>
+                            @ViewBag.Title
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Họ tên đầy đủ:
+                        </td>
+                        <td>
+                            @ViewBag.Fullname
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Ngày sinh:
+                        </td>
+                        <td>
+                            @ViewBag.Dob
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Hình thức thanh toán:
+                        </td>
+                        <td>
+                            Thanh toán MoMo
+                            <a href="#" style="color: #0073e6;">
+                                Thay đổi thanh toán
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Yêu cầu của khách hàng:
+                        </td>
+                        <td>
+                            @ViewBag.Requests
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Ghi chú chung:
+                        </td>
+                        <td>
+                            Vui lòng liên hệ hotline 1900 1234 nếu những thông tin dưới đây chưa được thanh toán thành công.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="booking-details" style="margin-top:50px;">
+                <div class="section-title">
+                    CHI TIẾT BOOKING
+                </div>
+                <table class="info-table">
+                    <tr>
+                        <td colspan="2">
+                            <img alt="Image" height="100" src="~/image/phong/room1.jpg" width="100" />
+                            <div>
+                                <p>Loại phòng: @ViewBag.RoomType</p>
+                                <br />
+                                <span style="color: #e53935;">
+                                    <p>Giá: @string.Format("{0:n0} ₫", ViewBag.Price)</p>
+                                </span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nhận phòng:
+                        </td>
+                        <td>
+                            <p> @ViewBag.CheckinDate</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Trả phòng:
+                        </td>
+                        <td>
+                            <p> @ViewBag.CheckoutDate</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Số lượng phòng:
+                        </td>
+                        <td>
+                            <p> @ViewBag.RoomQuantity</p>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+            <div>
+                <button type="submit" class="btn">Đặt Phòng</button>
+                <a href="javascript:history.back()" class="btn" style="margin-left: 10px;">Quay về</a>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

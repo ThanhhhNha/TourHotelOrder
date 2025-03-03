@@ -1,0 +1,223 @@
+﻿@model IEnumerable<VietTravel.Models.Tour>
+
+<html>
+<head>
+    <title>
+        Tour Search
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="containertour">
+        <form style="width:20%;"method="get" action="@Url.Action("ListTours")">
+            <div class="filter">
+                <h2>BỘ LỌC TÌM KIẾM</h2>
+                <label>Ngân sách:</label>
+                <div class="btn-group">
+                    <button type="submit" name="price" value="Under3M">Dưới 3 triệu</button>
+                    <button type="submit" name="price" value="3to5M">Từ 3 - 5 triệu</button>
+                    <button type="submit" name="price" value="5to7M">Từ 5 - 7 triệu</button>
+                    <button type="submit" name="price" value="Above7M">Trên 7 triệu</button>
+                </div>
+                <label>Điểm khởi hành</label>
+                <select name="departurePoint">
+                    <option value="">Tất cả</option>
+                    @foreach (var point in Model.Where(t => t.TinhThanh != null).Select(t => t.TinhThanh.TenTinh).Distinct())
+                    {
+                        <option value="@point">@point</option>
+                    }
+                </select>
+
+               
+                
+                <label>Phương tiện</label>
+                <div class="btn-group">
+                    <button type="submit" name="transport" value="Xe">Xe</button>
+                    <button type="submit" name="transport" value="Máy bay">Máy bay</button>
+                </div>
+                <button type="submit">Áp dụng</button>
+            </div>
+        </form>
+
+        <div class="results">
+            <h2>Chúng tôi tìm thấy <span style="color: #007bff;">@Model.Count()</span> chương trình tour cho quý khách</h2>
+            @foreach (var item in Model)
+            {
+                <div class="tour">
+                    <img alt="@item.TenTour" src="~/image/tour/@item.HinhAnh" />
+                    <div class="details">
+                        <h2>@item.TenTour</h2>
+                        <p><i class="fas fa-tag"></i> Mã tour: <strong>@item.MaTour</strong></p>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> Điểm khởi hành: <strong>
+                                @(item.TinhThanh != null ? item.TinhThanh.TenTinh : "Không xác định")
+                            </strong>
+                        </p>
+                        <p><i class="fas fa-clock"></i> Thời gian: <strong>@item.ThoiGian ngày</strong></p>
+                        <p><i class="fas fa-bus"></i> Phương tiện: <strong>@item.PhuongTien</strong></p>
+                        <p><i class="fas fa-calendar-alt"></i> Ngày khởi hành: <strong>@item.NgayKhoiHanh.ToString("dd/MM")</strong></p>
+                        <div style="display:flex; justify-content:space-between; margin-right:5px;">
+                            <p class="price">Giá: @item.Gia.ToString("N0") đ</p>
+                            <a class="btn" href="@Url.Action("Details", "Tours", new { id = item.MaTour })">Xem chi tiết</a>
+                        </div>
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>
+<style>
+
+    .containertour {
+        margin-top: 50px;
+        display: flex;
+        padding: 20px;
+    }
+
+   /* .filter {
+        width: 25%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+*/
+        .filter h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .filter label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .filter button, .filter select, .filter input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+    .filter button {
+        background-color: #0056a3;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+            .filter button:hover {
+                background-color: #0056b3;
+            }
+
+        .filter .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+            .filter .btn-group button {
+                flex: 1;
+                background-color: #f5f5f5;
+                color: #000;
+                border: 1px solid #ddd;
+                cursor: pointer;
+            }
+
+                .filter .btn-group button.active {
+                    background-color: #007bff;
+                    color: #fff;
+                }
+
+    .results {
+        width: 80%;
+        padding-left: 20px;
+    }
+
+        .results h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+    .tour {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+        .tour img {
+            width: 350px;
+            height: 250px;
+            border-radius: 8px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .tour .details {
+            flex: 1;
+        }
+
+            .tour .details h3 {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+
+
+            .tour .details .price {
+                font-size: 18px;
+                color: #d9534f;
+                font-weight: bold;
+            }
+
+            .tour .details .btn {
+                background-color: #0056a3;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+
+                .tour .details .btn:hover {
+                    background-color: #0056b3;
+                }
+
+            .tour .details .dates {
+                display: flex;
+                gap: 10px;
+                margin-top: 10px;
+            }
+
+                .tour .details .dates button {
+                    background-color: #f5f5f5;
+                    color: #000;
+                    border: 1px solid #ddd;
+                    padding: 5px 10px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+
+                    .tour .details .dates button:hover {
+                        background-color: #ddd;
+                    }
+            .tour .details p {
+                margin: 8px 0;
+                display: flex;
+                align-items: center; 
+            }
+
+                .tour .details p i {
+                    margin-right: 10px;
+                    color: #0056a3;
+                    font-size: 1.2em;
+                }
+</style>

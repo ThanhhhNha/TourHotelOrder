@@ -1,0 +1,186 @@
+﻿@model VietTravel.Models.TourBooking
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Chi tiết Đơn đặt Tour</h2>
+
+<div>
+    <div class="order-details">
+        <h4>Đơn đặt Tour</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Phone)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Phone)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Title)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Title)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.FullName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.FullName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Dob)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Dob)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Requests)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Requests)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PaymentMethod)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PaymentMethod)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Tour.TenTour)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Tour.TenTour)
+            </dd>
+
+        </dl>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.BookingId }, new { @class = "btn btn-primary" }) |
+    @Html.ActionLink("Quay về", "Index", null, new { @class = "btn btn-secondary" })
+</p>
+
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+        color: #343a40;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    hr {
+        margin: 5px;
+        border-top: 2px solid #ddd;
+    }
+
+    .order-details, .tour-details {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .dl-horizontal {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1.5rem;
+    }
+
+        .dl-horizontal dt {
+            font-weight: bold;
+            color: #444;
+            width: 30%;
+            margin-bottom: 10px;
+        }
+
+        .dl-horizontal dd {
+            width: 70%;
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+
+    p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary {
+        background-color: #154583;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+    }
+
+    .btn:hover {
+        text-decoration: none;
+        opacity: 0.9;
+    }
+</style>

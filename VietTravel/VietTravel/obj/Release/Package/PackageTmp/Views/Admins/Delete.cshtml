@@ -1,0 +1,118 @@
+﻿@model VietTravel.Models.Admin
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Xóa Quản Trị Viên</h2>
+
+<h3>Bạn có chắc chắn muốn xóa không?</h3>
+<div>
+    <h4>Thông Tin Quản Trị Viên</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenAdmin)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TenAdmin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VaiTro)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VaiTro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Passwords)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Passwords)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-actions">
+            <input type="submit" value="Xóa" class="btn btn-danger" />
+            @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-secondary" })
+        </div>
+    }
+</div>
+
+<style>
+    h2 {
+        color: #b22222;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .form-actions {
+        margin-top: 20px;
+    }
+
+    .btn-danger {
+        background-color: #d9534f;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-danger:hover {
+            background-color: #c9302c;
+            cursor: pointer;
+        }
+
+    .btn-secondary {
+        text-align: center;
+        text-decoration: none;
+        background-color: #6c757d;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        margin-left: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+    .dl-horizontal dt {
+        font-weight: bold;
+        color: #154583;
+    }
+
+    .dl-horizontal dd {
+        margin-bottom: 10px;
+        color: #555;
+    }
+
+    hr {
+        border: 1px solid #154583;
+        margin-bottom: 20px;
+    }
+</style>

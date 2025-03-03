@@ -1,0 +1,135 @@
+﻿@model VietTravel.Models.Admin
+@{
+    ViewBag.Title = "Chỉnh sửa thông tin quản trị viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    var adminUser = Session["AdminAccount"] as VietTravel.Models.Admin;
+}
+
+<div class="container detailsAdmin" style="color: #6f6f6f">
+    <div class="" style="padding-right: 60px">
+        <div class="" style="display: flex; margin-top: 10px ">
+            <i class="fas fa-user-circle" style="font-size: 50px; padding-right: 15px"></i>
+            <div class="">
+                <p class="textMian" style="margin-bottom: 0;">@Html.DisplayFor(model => model.TenAdmin)</p>
+                <p class="text-none1" style="margin-bottom: 0; font-size: 14px">
+                    <i class="fas fa-pen" style="font-size: 12px"></i>
+                    @Html.ActionLink("Chỉnh sửa thông tin", "AdminEdit", new { id = Model.MaAdmin })
+                </p>
+            </div>
+        </div>
+        <hr />
+        <div class="">
+            <div class="detailsAdmin-leftItem">
+                <i class="fas fa-user-shield"></i>
+                <p class="text-none1" style="font-size: 14px; padding-left: 16px"><a href="">Quản lý tài khoản</a></p>
+            </div>
+            <div class="detailsAdmin-leftItem">
+                <i class="fas fa-cogs"></i>
+                <p class="text-none1" style="font-size: 14px; padding-left: 12px"><a href="">Cài đặt hệ thống</a></p>
+            </div>
+            <div class="detailsAdmin-leftItem1">
+                @if (adminUser != null)
+                {
+                    <a href="@Url.Action("Logout", "Account")" class="text-none btn-primarys" style="padding: 5px 15px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 17px; background-color: #6f6f6f; color: #fff">Đăng xuất</a>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="detailsAdmin-right">
+        <h4 style="color: #6f6f6f; font-weight: 700">Chỉnh sửa thông tin quản trị viên</h4>
+        <hr />
+        <div class="editAdmin">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-horizontal">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.HiddenFor(model => model.MaAdmin)
+
+                    <div class="form-group">
+                        Tên đăng nhập:
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.TenAdmin, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.TenAdmin, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        UserName:
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                   
+                    <div class="form-group">
+                       Username
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        Password:
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Passwords, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Passwords, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Lưu thay đổi" class="btn btn-primarys" style="background-color: #6f6f6f; color: #fff" />
+                            <a href="@Url.Action("Account", "Account")" class="btn" style="background-color: #6f6f6f; color: #fff; text-align:center;">Quay về</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .detailsAdmin {
+        margin-top: 120px;
+        margin-bottom: 70px;
+        padding-left: 20px;
+        display: flex;
+        font-family: Arial;
+    }
+
+    .detailsAdmin-leftItem {
+        display: flex;
+    }
+
+    .detailsAdmin-right {
+        padding: 20px 60px;
+        background: #fff;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.13);
+        border-radius: 0.125rem;
+        flex: 1;
+    }
+
+    .text-none1 a {
+        text-decoration: none;
+        color: #6f6f6f;
+    }
+
+    .textMian {
+        color: #333;
+        font-weight: 700;
+    }
+
+    .btn-primarys {
+        background-color: #e6e3de;
+        color: #6f6f6f;
+    }
+
+        .btn-primarys:hover {
+            color: #fff !important;
+            background-color: #6f6f6f;
+            cursor: pointer;
+        }
+</style>

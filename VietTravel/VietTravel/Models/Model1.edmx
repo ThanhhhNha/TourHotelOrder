@@ -1,0 +1,1051 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="TravelVNModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="MaAdmin" />
+          </Key>
+          <Property Name="MaAdmin" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenAdmin" Type="nvarchar(max)" />
+          <Property Name="VaiTro" Type="nvarchar(max)" />
+          <Property Name="Username" Type="varchar" MaxLength="50" />
+          <Property Name="Passwords" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Combo">
+          <Key>
+            <PropertyRef Name="MaCombo" />
+          </Key>
+          <Property Name="MaCombo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TenCombo" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="GiaCombo" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ComboChuyenBay">
+          <Key>
+            <PropertyRef Name="MaCombo" />
+            <PropertyRef Name="MaFlight" />
+          </Key>
+          <Property Name="MaCombo" Type="int" Nullable="false" />
+          <Property Name="MaFlight" Type="nvarchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ComboKhachSan">
+          <Key>
+            <PropertyRef Name="MaCombo" />
+            <PropertyRef Name="MaKhachSan" />
+          </Key>
+          <Property Name="MaCombo" Type="int" Nullable="false" />
+          <Property Name="MaKhachSan" Type="nvarchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ComboTour">
+          <Key>
+            <PropertyRef Name="MaCombo" />
+            <PropertyRef Name="MaTour" />
+          </Key>
+          <Property Name="MaCombo" Type="int" Nullable="false" />
+          <Property Name="MaTour" Type="nvarchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Flight">
+          <Key>
+            <PropertyRef Name="MaFlight" />
+          </Key>
+          <Property Name="MaFlight" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenFlight" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="HangBay" Type="nvarchar" MaxLength="50" />
+          <Property Name="LoaiMayBay" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Hotels">
+          <Key>
+            <PropertyRef Name="MaKhachSan" />
+          </Key>
+          <Property Name="MaKhachSan" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenKhachSan" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="DiaChi" Type="nvarchar(max)" />
+          <Property Name="MoTa" Type="nvarchar(max)" />
+          <Property Name="HinhAnh" Type="nvarchar" MaxLength="255" />
+          <Property Name="MaTinh" Type="nvarchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="LoaiPhong">
+          <Key>
+            <PropertyRef Name="MaLoai" />
+          </Key>
+          <Property Name="MaLoai" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenLoai" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="LoaiTour">
+          <Key>
+            <PropertyRef Name="MaLoaiTour" />
+          </Key>
+          <Property Name="MaLoaiTour" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenLoaiTour" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OrderBooking">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="255" />
+          <Property Name="Dob" Type="date" />
+          <Property Name="Requests" Type="nvarchar(max)" />
+          <Property Name="RoomType" Type="nvarchar" MaxLength="100" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="CheckinDate" Type="date" Nullable="false" />
+          <Property Name="CheckoutDate" Type="date" Nullable="false" />
+          <Property Name="RoomQuantity" Type="int" Nullable="false" />
+          <Property Name="BookingDate" Type="datetime" Nullable="false" />
+          <Property Name="MaKhachSan" Type="nvarchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Phong">
+          <Key>
+            <PropertyRef Name="MaPhong" />
+          </Key>
+          <Property Name="MaPhong" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="MaLoai" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="MaTrangThai" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="MaKhachSan" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="MaUser" Type="nvarchar" MaxLength="10" />
+          <Property Name="Gia" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Hinh" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="RevenueSummary">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TotalRoomsBooked" Type="int" Nullable="false" />
+          <Property Name="TotalRevenue" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="TinhThanh">
+          <Key>
+            <PropertyRef Name="MaTinh" />
+          </Key>
+          <Property Name="MaTinh" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenTinh" Type="nvarchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tour">
+          <Key>
+            <PropertyRef Name="MaTour" />
+          </Key>
+          <Property Name="MaTour" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenTour" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="MoTa" Type="nvarchar(max)" />
+          <Property Name="NgayKhoiHanh" Type="date" Nullable="false" />
+          <Property Name="ThoiGian" Type="int" Nullable="false" />
+          <Property Name="Gia" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="MaLoaiTour" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="HinhAnh" Type="nvarchar" MaxLength="255" />
+          <Property Name="PhuongTien" Type="nvarchar" MaxLength="255" />
+          <Property Name="MaTinh" Type="nvarchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="TourBooking">
+          <Key>
+            <PropertyRef Name="BookingId" />
+          </Key>
+          <Property Name="BookingId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="Email" Type="nvarchar" MaxLength="100" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="100" />
+          <Property Name="Dob" Type="date" />
+          <Property Name="Requests" Type="nvarchar" MaxLength="500" />
+          <Property Name="PaymentMethod" Type="nvarchar" MaxLength="50" />
+          <Property Name="TourId" Type="nvarchar" MaxLength="10" />
+          <Property Name="BookingDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TrangThaiPhong">
+          <Key>
+            <PropertyRef Name="MaTrangThai" />
+          </Key>
+          <Property Name="MaTrangThai" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenTrangThai" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="MaUser" />
+          </Key>
+          <Property Name="MaUser" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenUser" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Username" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="100" />
+          <Property Name="DienThoai" Type="nvarchar" MaxLength="15" />
+        </EntityType>
+        <Association Name="FK__ComboChuy__MaCom__627A95E8">
+          <End Role="Combo" Type="Self.Combo" Multiplicity="1" />
+          <End Role="ComboChuyenBay" Type="Self.ComboChuyenBay" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Combo">
+              <PropertyRef Name="MaCombo" />
+            </Principal>
+            <Dependent Role="ComboChuyenBay">
+              <PropertyRef Name="MaCombo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ComboChuy__MaFli__636EBA21">
+          <End Role="Flight" Type="Self.Flight" Multiplicity="1" />
+          <End Role="ComboChuyenBay" Type="Self.ComboChuyenBay" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Flight">
+              <PropertyRef Name="MaFlight" />
+            </Principal>
+            <Dependent Role="ComboChuyenBay">
+              <PropertyRef Name="MaFlight" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ComboKhac__MaCom__5EAA0504">
+          <End Role="Combo" Type="Self.Combo" Multiplicity="1" />
+          <End Role="ComboKhachSan" Type="Self.ComboKhachSan" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Combo">
+              <PropertyRef Name="MaCombo" />
+            </Principal>
+            <Dependent Role="ComboKhachSan">
+              <PropertyRef Name="MaCombo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ComboKhac__MaKha__5F9E293D">
+          <End Role="Hotels" Type="Self.Hotels" Multiplicity="1" />
+          <End Role="ComboKhachSan" Type="Self.ComboKhachSan" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hotels">
+              <PropertyRef Name="MaKhachSan" />
+            </Principal>
+            <Dependent Role="ComboKhachSan">
+              <PropertyRef Name="MaKhachSan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ComboTour__MaCom__5AD97420">
+          <End Role="Combo" Type="Self.Combo" Multiplicity="1" />
+          <End Role="ComboTour" Type="Self.ComboTour" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Combo">
+              <PropertyRef Name="MaCombo" />
+            </Principal>
+            <Dependent Role="ComboTour">
+              <PropertyRef Name="MaCombo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ComboTour__MaTou__5BCD9859">
+          <End Role="Tour" Type="Self.Tour" Multiplicity="1" />
+          <End Role="ComboTour" Type="Self.ComboTour" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tour">
+              <PropertyRef Name="MaTour" />
+            </Principal>
+            <Dependent Role="ComboTour">
+              <PropertyRef Name="MaTour" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Hotels__MaTinh__420DC656">
+          <End Role="TinhThanh" Type="Self.TinhThanh" Multiplicity="0..1" />
+          <End Role="Hotels" Type="Self.Hotels" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TinhThanh">
+              <PropertyRef Name="MaTinh" />
+            </Principal>
+            <Dependent Role="Hotels">
+              <PropertyRef Name="MaTinh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrderBook__MaKha__5614BF03">
+          <End Role="Hotels" Type="Self.Hotels" Multiplicity="1" />
+          <End Role="OrderBooking" Type="Self.OrderBooking" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hotels">
+              <PropertyRef Name="MaKhachSan" />
+            </Principal>
+            <Dependent Role="OrderBooking">
+              <PropertyRef Name="MaKhachSan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Phong__MaKhachSa__49AEE81E">
+          <End Role="Hotels" Type="Self.Hotels" Multiplicity="1" />
+          <End Role="Phong" Type="Self.Phong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hotels">
+              <PropertyRef Name="MaKhachSan" />
+            </Principal>
+            <Dependent Role="Phong">
+              <PropertyRef Name="MaKhachSan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Phong__MaLoai__47C69FAC">
+          <End Role="LoaiPhong" Type="Self.LoaiPhong" Multiplicity="1" />
+          <End Role="Phong" Type="Self.Phong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LoaiPhong">
+              <PropertyRef Name="MaLoai" />
+            </Principal>
+            <Dependent Role="Phong">
+              <PropertyRef Name="MaLoai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Phong__MaTrangTh__48BAC3E5">
+          <End Role="TrangThaiPhong" Type="Self.TrangThaiPhong" Multiplicity="1" />
+          <End Role="Phong" Type="Self.Phong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TrangThaiPhong">
+              <PropertyRef Name="MaTrangThai" />
+            </Principal>
+            <Dependent Role="Phong">
+              <PropertyRef Name="MaTrangThai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Phong__MaUser__4AA30C57">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="Phong" Type="Self.Phong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="MaUser" />
+            </Principal>
+            <Dependent Role="Phong">
+              <PropertyRef Name="MaUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Tour__MaLoaiTour__505BE5AD">
+          <End Role="LoaiTour" Type="Self.LoaiTour" Multiplicity="1" />
+          <End Role="Tour" Type="Self.Tour" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LoaiTour">
+              <PropertyRef Name="MaLoaiTour" />
+            </Principal>
+            <Dependent Role="Tour">
+              <PropertyRef Name="MaLoaiTour" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Tour__MaTinh__4F67C174">
+          <End Role="TinhThanh" Type="Self.TinhThanh" Multiplicity="0..1" />
+          <End Role="Tour" Type="Self.Tour" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TinhThanh">
+              <PropertyRef Name="MaTinh" />
+            </Principal>
+            <Dependent Role="Tour">
+              <PropertyRef Name="MaTinh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__TourBooki__TourI__69279377">
+          <End Role="Tour" Type="Self.Tour" Multiplicity="0..1" />
+          <End Role="TourBooking" Type="Self.TourBooking" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tour">
+              <PropertyRef Name="MaTour" />
+            </Principal>
+            <Dependent Role="TourBooking">
+              <PropertyRef Name="TourId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="TravelVNModelStoreContainer">
+          <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Combo" EntityType="Self.Combo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ComboChuyenBay" EntityType="Self.ComboChuyenBay" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ComboKhachSan" EntityType="Self.ComboKhachSan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ComboTour" EntityType="Self.ComboTour" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Flight" EntityType="Self.Flight" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Hotels" EntityType="Self.Hotels" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LoaiPhong" EntityType="Self.LoaiPhong" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LoaiTour" EntityType="Self.LoaiTour" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrderBooking" EntityType="Self.OrderBooking" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Phong" EntityType="Self.Phong" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RevenueSummary" EntityType="Self.RevenueSummary" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TinhThanh" EntityType="Self.TinhThanh" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tour" EntityType="Self.Tour" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TourBooking" EntityType="Self.TourBooking" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TrangThaiPhong" EntityType="Self.TrangThaiPhong" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__ComboChuy__MaCom__627A95E8" Association="Self.FK__ComboChuy__MaCom__627A95E8">
+            <End Role="Combo" EntitySet="Combo" />
+            <End Role="ComboChuyenBay" EntitySet="ComboChuyenBay" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ComboChuy__MaFli__636EBA21" Association="Self.FK__ComboChuy__MaFli__636EBA21">
+            <End Role="Flight" EntitySet="Flight" />
+            <End Role="ComboChuyenBay" EntitySet="ComboChuyenBay" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ComboKhac__MaCom__5EAA0504" Association="Self.FK__ComboKhac__MaCom__5EAA0504">
+            <End Role="Combo" EntitySet="Combo" />
+            <End Role="ComboKhachSan" EntitySet="ComboKhachSan" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ComboKhac__MaKha__5F9E293D" Association="Self.FK__ComboKhac__MaKha__5F9E293D">
+            <End Role="Hotels" EntitySet="Hotels" />
+            <End Role="ComboKhachSan" EntitySet="ComboKhachSan" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ComboTour__MaCom__5AD97420" Association="Self.FK__ComboTour__MaCom__5AD97420">
+            <End Role="Combo" EntitySet="Combo" />
+            <End Role="ComboTour" EntitySet="ComboTour" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ComboTour__MaTou__5BCD9859" Association="Self.FK__ComboTour__MaTou__5BCD9859">
+            <End Role="Tour" EntitySet="Tour" />
+            <End Role="ComboTour" EntitySet="ComboTour" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Hotels__MaTinh__420DC656" Association="Self.FK__Hotels__MaTinh__420DC656">
+            <End Role="TinhThanh" EntitySet="TinhThanh" />
+            <End Role="Hotels" EntitySet="Hotels" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrderBook__MaKha__5614BF03" Association="Self.FK__OrderBook__MaKha__5614BF03">
+            <End Role="Hotels" EntitySet="Hotels" />
+            <End Role="OrderBooking" EntitySet="OrderBooking" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Phong__MaKhachSa__49AEE81E" Association="Self.FK__Phong__MaKhachSa__49AEE81E">
+            <End Role="Hotels" EntitySet="Hotels" />
+            <End Role="Phong" EntitySet="Phong" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Phong__MaLoai__47C69FAC" Association="Self.FK__Phong__MaLoai__47C69FAC">
+            <End Role="LoaiPhong" EntitySet="LoaiPhong" />
+            <End Role="Phong" EntitySet="Phong" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Phong__MaTrangTh__48BAC3E5" Association="Self.FK__Phong__MaTrangTh__48BAC3E5">
+            <End Role="TrangThaiPhong" EntitySet="TrangThaiPhong" />
+            <End Role="Phong" EntitySet="Phong" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Phong__MaUser__4AA30C57" Association="Self.FK__Phong__MaUser__4AA30C57">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Phong" EntitySet="Phong" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Tour__MaLoaiTour__505BE5AD" Association="Self.FK__Tour__MaLoaiTour__505BE5AD">
+            <End Role="LoaiTour" EntitySet="LoaiTour" />
+            <End Role="Tour" EntitySet="Tour" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Tour__MaTinh__4F67C174" Association="Self.FK__Tour__MaTinh__4F67C174">
+            <End Role="TinhThanh" EntitySet="TinhThanh" />
+            <End Role="Tour" EntitySet="Tour" />
+          </AssociationSet>
+          <AssociationSet Name="FK__TourBooki__TourI__69279377" Association="Self.FK__TourBooki__TourI__69279377">
+            <End Role="Tour" EntitySet="Tour" />
+            <End Role="TourBooking" EntitySet="TourBooking" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TravelVNModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="MaAdmin" />
+          </Key>
+          <Property Name="MaAdmin" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenAdmin" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="VaiTro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Passwords" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Combo">
+          <Key>
+            <PropertyRef Name="MaCombo" />
+          </Key>
+          <Property Name="MaCombo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TenCombo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GiaCombo" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <NavigationProperty Name="Flights" Relationship="Self.ComboChuyenBay" FromRole="Combo" ToRole="Flight" />
+          <NavigationProperty Name="Hotels" Relationship="Self.ComboKhachSan" FromRole="Combo" ToRole="Hotels" />
+          <NavigationProperty Name="Tours" Relationship="Self.ComboTour" FromRole="Combo" ToRole="Tour" />
+        </EntityType>
+        <EntityType Name="Flight">
+          <Key>
+            <PropertyRef Name="MaFlight" />
+          </Key>
+          <Property Name="MaFlight" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenFlight" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="HangBay" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LoaiMayBay" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Comboes" Relationship="Self.ComboChuyenBay" FromRole="Flight" ToRole="Combo" />
+        </EntityType>
+        <EntityType Name="Hotel">
+          <Key>
+            <PropertyRef Name="MaKhachSan" />
+          </Key>
+          <Property Name="MaKhachSan" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenKhachSan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DiaChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="MoTa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="HinhAnh" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="MaTinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="TinhThanh" Relationship="Self.FK__Hotels__MaTinh__420DC656" FromRole="Hotels" ToRole="TinhThanh" />
+          <NavigationProperty Name="OrderBookings" Relationship="Self.FK__OrderBook__MaKha__5614BF03" FromRole="Hotels" ToRole="OrderBooking" />
+          <NavigationProperty Name="Phongs" Relationship="Self.FK__Phong__MaKhachSa__49AEE81E" FromRole="Hotels" ToRole="Phong" />
+          <NavigationProperty Name="Comboes" Relationship="Self.ComboKhachSan" FromRole="Hotels" ToRole="Combo" />
+        </EntityType>
+        <EntityType Name="LoaiPhong">
+          <Key>
+            <PropertyRef Name="MaLoai" />
+          </Key>
+          <Property Name="MaLoai" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenLoai" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Phongs" Relationship="Self.FK__Phong__MaLoai__47C69FAC" FromRole="LoaiPhong" ToRole="Phong" />
+        </EntityType>
+        <EntityType Name="LoaiTour">
+          <Key>
+            <PropertyRef Name="MaLoaiTour" />
+          </Key>
+          <Property Name="MaLoaiTour" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenLoaiTour" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Tours" Relationship="Self.FK__Tour__MaLoaiTour__505BE5AD" FromRole="LoaiTour" ToRole="Tour" />
+        </EntityType>
+        <EntityType Name="OrderBooking">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FullName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Dob" Type="DateTime" Precision="0" />
+          <Property Name="Requests" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="RoomType" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="CheckinDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="CheckoutDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="RoomQuantity" Type="Int32" Nullable="false" />
+          <Property Name="BookingDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="MaKhachSan" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Hotel" Relationship="Self.FK__OrderBook__MaKha__5614BF03" FromRole="OrderBooking" ToRole="Hotels" />
+        </EntityType>
+        <EntityType Name="Phong">
+          <Key>
+            <PropertyRef Name="MaPhong" />
+          </Key>
+          <Property Name="MaPhong" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MaLoai" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MaTrangThai" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MaKhachSan" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MaUser" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Gia" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Hinh" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Hotel" Relationship="Self.FK__Phong__MaKhachSa__49AEE81E" FromRole="Phong" ToRole="Hotels" />
+          <NavigationProperty Name="LoaiPhong" Relationship="Self.FK__Phong__MaLoai__47C69FAC" FromRole="Phong" ToRole="LoaiPhong" />
+          <NavigationProperty Name="TrangThaiPhong" Relationship="Self.FK__Phong__MaTrangTh__48BAC3E5" FromRole="Phong" ToRole="TrangThaiPhong" />
+          <NavigationProperty Name="User" Relationship="Self.FK__Phong__MaUser__4AA30C57" FromRole="Phong" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="RevenueSummary">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TotalRoomsBooked" Type="Int32" Nullable="false" />
+          <Property Name="TotalRevenue" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TinhThanh">
+          <Key>
+            <PropertyRef Name="MaTinh" />
+          </Key>
+          <Property Name="MaTinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenTinh" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Hotels" Relationship="Self.FK__Hotels__MaTinh__420DC656" FromRole="TinhThanh" ToRole="Hotels" />
+          <NavigationProperty Name="Tours" Relationship="Self.FK__Tour__MaTinh__4F67C174" FromRole="TinhThanh" ToRole="Tour" />
+        </EntityType>
+        <EntityType Name="Tour">
+          <Key>
+            <PropertyRef Name="MaTour" />
+          </Key>
+          <Property Name="MaTour" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenTour" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MoTa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NgayKhoiHanh" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="ThoiGian" Type="Int32" Nullable="false" />
+          <Property Name="Gia" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="MaLoaiTour" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="HinhAnh" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PhuongTien" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="MaTinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="LoaiTour" Relationship="Self.FK__Tour__MaLoaiTour__505BE5AD" FromRole="Tour" ToRole="LoaiTour" />
+          <NavigationProperty Name="TinhThanh" Relationship="Self.FK__Tour__MaTinh__4F67C174" FromRole="Tour" ToRole="TinhThanh" />
+          <NavigationProperty Name="TourBookings" Relationship="Self.FK__TourBooki__TourI__69279377" FromRole="Tour" ToRole="TourBooking" />
+          <NavigationProperty Name="Comboes" Relationship="Self.ComboTour" FromRole="Tour" ToRole="Combo" />
+        </EntityType>
+        <EntityType Name="TourBooking">
+          <Key>
+            <PropertyRef Name="BookingId" />
+          </Key>
+          <Property Name="BookingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FullName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Dob" Type="DateTime" Precision="0" />
+          <Property Name="Requests" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="PaymentMethod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TourId" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="BookingDate" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Tour" Relationship="Self.FK__TourBooki__TourI__69279377" FromRole="TourBooking" ToRole="Tour" />
+        </EntityType>
+        <EntityType Name="TrangThaiPhong">
+          <Key>
+            <PropertyRef Name="MaTrangThai" />
+          </Key>
+          <Property Name="MaTrangThai" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenTrangThai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Phongs" Relationship="Self.FK__Phong__MaTrangTh__48BAC3E5" FromRole="TrangThaiPhong" ToRole="Phong" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="MaUser" />
+          </Key>
+          <Property Name="MaUser" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenUser" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DienThoai" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Phongs" Relationship="Self.FK__Phong__MaUser__4AA30C57" FromRole="Users" ToRole="Phong" />
+        </EntityType>
+        <Association Name="FK__Hotels__MaTinh__420DC656">
+          <End Role="TinhThanh" Type="Self.TinhThanh" Multiplicity="0..1" />
+          <End Role="Hotels" Type="Self.Hotel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TinhThanh">
+              <PropertyRef Name="MaTinh" />
+            </Principal>
+            <Dependent Role="Hotels">
+              <PropertyRef Name="MaTinh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrderBook__MaKha__5614BF03">
+          <End Role="Hotels" Type="Self.Hotel" Multiplicity="1" />
+          <End Role="OrderBooking" Type="Self.OrderBooking" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hotels">
+              <PropertyRef Name="MaKhachSan" />
+            </Principal>
+            <Dependent Role="OrderBooking">
+              <PropertyRef Name="MaKhachSan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Phong__MaKhachSa__49AEE81E">
+          <End Role="Hotels" Type="Self.Hotel" Multiplicity="1" />
+          <End Role="Phong" Type="Self.Phong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hotels">
+              <PropertyRef Name="MaKhachSan" />
+            </Principal>
+            <Dependent Role="Phong">
+              <PropertyRef Name="MaKhachSan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Phong__MaLoai__47C69FAC">
+          <End Role="LoaiPhong" Type="Self.LoaiPhong" Multiplicity="1" />
+          <End Role="Phong" Type="Self.Phong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LoaiPhong">
+              <PropertyRef Name="MaLoai" />
+            </Principal>
+            <Dependent Role="Phong">
+              <PropertyRef Name="MaLoai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Tour__MaLoaiTour__505BE5AD">
+          <End Role="LoaiTour" Type="Self.LoaiTour" Multiplicity="1" />
+          <End Role="Tour" Type="Self.Tour" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LoaiTour">
+              <PropertyRef Name="MaLoaiTour" />
+            </Principal>
+            <Dependent Role="Tour">
+              <PropertyRef Name="MaLoaiTour" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Phong__MaTrangTh__48BAC3E5">
+          <End Role="TrangThaiPhong" Type="Self.TrangThaiPhong" Multiplicity="1" />
+          <End Role="Phong" Type="Self.Phong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TrangThaiPhong">
+              <PropertyRef Name="MaTrangThai" />
+            </Principal>
+            <Dependent Role="Phong">
+              <PropertyRef Name="MaTrangThai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Phong__MaUser__4AA30C57">
+          <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+          <End Role="Phong" Type="Self.Phong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="MaUser" />
+            </Principal>
+            <Dependent Role="Phong">
+              <PropertyRef Name="MaUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Tour__MaTinh__4F67C174">
+          <End Role="TinhThanh" Type="Self.TinhThanh" Multiplicity="0..1" />
+          <End Role="Tour" Type="Self.Tour" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TinhThanh">
+              <PropertyRef Name="MaTinh" />
+            </Principal>
+            <Dependent Role="Tour">
+              <PropertyRef Name="MaTinh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__TourBooki__TourI__69279377">
+          <End Role="Tour" Type="Self.Tour" Multiplicity="0..1" />
+          <End Role="TourBooking" Type="Self.TourBooking" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tour">
+              <PropertyRef Name="MaTour" />
+            </Principal>
+            <Dependent Role="TourBooking">
+              <PropertyRef Name="TourId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ComboChuyenBay">
+          <End Role="Combo" Type="Self.Combo" Multiplicity="*" />
+          <End Role="Flight" Type="Self.Flight" Multiplicity="*" />
+        </Association>
+        <Association Name="ComboKhachSan">
+          <End Role="Combo" Type="Self.Combo" Multiplicity="*" />
+          <End Role="Hotels" Type="Self.Hotel" Multiplicity="*" />
+        </Association>
+        <Association Name="ComboTour">
+          <End Role="Combo" Type="Self.Combo" Multiplicity="*" />
+          <End Role="Tour" Type="Self.Tour" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="TravelVNEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Admins" EntityType="Self.Admin" />
+          <EntitySet Name="Comboes" EntityType="Self.Combo" />
+          <EntitySet Name="Flights" EntityType="Self.Flight" />
+          <EntitySet Name="Hotels" EntityType="Self.Hotel" />
+          <EntitySet Name="LoaiPhongs" EntityType="Self.LoaiPhong" />
+          <EntitySet Name="LoaiTours" EntityType="Self.LoaiTour" />
+          <EntitySet Name="OrderBookings" EntityType="Self.OrderBooking" />
+          <EntitySet Name="Phongs" EntityType="Self.Phong" />
+          <EntitySet Name="RevenueSummaries" EntityType="Self.RevenueSummary" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="TinhThanhs" EntityType="Self.TinhThanh" />
+          <EntitySet Name="Tours" EntityType="Self.Tour" />
+          <EntitySet Name="TourBookings" EntityType="Self.TourBooking" />
+          <EntitySet Name="TrangThaiPhongs" EntityType="Self.TrangThaiPhong" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <AssociationSet Name="FK__Hotels__MaTinh__420DC656" Association="Self.FK__Hotels__MaTinh__420DC656">
+            <End Role="TinhThanh" EntitySet="TinhThanhs" />
+            <End Role="Hotels" EntitySet="Hotels" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrderBook__MaKha__5614BF03" Association="Self.FK__OrderBook__MaKha__5614BF03">
+            <End Role="Hotels" EntitySet="Hotels" />
+            <End Role="OrderBooking" EntitySet="OrderBookings" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Phong__MaKhachSa__49AEE81E" Association="Self.FK__Phong__MaKhachSa__49AEE81E">
+            <End Role="Hotels" EntitySet="Hotels" />
+            <End Role="Phong" EntitySet="Phongs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Phong__MaLoai__47C69FAC" Association="Self.FK__Phong__MaLoai__47C69FAC">
+            <End Role="LoaiPhong" EntitySet="LoaiPhongs" />
+            <End Role="Phong" EntitySet="Phongs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Tour__MaLoaiTour__505BE5AD" Association="Self.FK__Tour__MaLoaiTour__505BE5AD">
+            <End Role="LoaiTour" EntitySet="LoaiTours" />
+            <End Role="Tour" EntitySet="Tours" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Phong__MaTrangTh__48BAC3E5" Association="Self.FK__Phong__MaTrangTh__48BAC3E5">
+            <End Role="TrangThaiPhong" EntitySet="TrangThaiPhongs" />
+            <End Role="Phong" EntitySet="Phongs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Phong__MaUser__4AA30C57" Association="Self.FK__Phong__MaUser__4AA30C57">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Phong" EntitySet="Phongs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Tour__MaTinh__4F67C174" Association="Self.FK__Tour__MaTinh__4F67C174">
+            <End Role="TinhThanh" EntitySet="TinhThanhs" />
+            <End Role="Tour" EntitySet="Tours" />
+          </AssociationSet>
+          <AssociationSet Name="FK__TourBooki__TourI__69279377" Association="Self.FK__TourBooki__TourI__69279377">
+            <End Role="Tour" EntitySet="Tours" />
+            <End Role="TourBooking" EntitySet="TourBookings" />
+          </AssociationSet>
+          <AssociationSet Name="ComboChuyenBay" Association="Self.ComboChuyenBay">
+            <End Role="Combo" EntitySet="Comboes" />
+            <End Role="Flight" EntitySet="Flights" />
+          </AssociationSet>
+          <AssociationSet Name="ComboKhachSan" Association="Self.ComboKhachSan">
+            <End Role="Combo" EntitySet="Comboes" />
+            <End Role="Hotels" EntitySet="Hotels" />
+          </AssociationSet>
+          <AssociationSet Name="ComboTour" Association="Self.ComboTour">
+            <End Role="Combo" EntitySet="Comboes" />
+            <End Role="Tour" EntitySet="Tours" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TravelVNModelStoreContainer" CdmEntityContainer="TravelVNEntities">
+          <EntitySetMapping Name="Admins">
+            <EntityTypeMapping TypeName="TravelVNModel.Admin">
+              <MappingFragment StoreEntitySet="Admin">
+                <ScalarProperty Name="MaAdmin" ColumnName="MaAdmin" />
+                <ScalarProperty Name="TenAdmin" ColumnName="TenAdmin" />
+                <ScalarProperty Name="VaiTro" ColumnName="VaiTro" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Passwords" ColumnName="Passwords" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Comboes">
+            <EntityTypeMapping TypeName="TravelVNModel.Combo">
+              <MappingFragment StoreEntitySet="Combo">
+                <ScalarProperty Name="MaCombo" ColumnName="MaCombo" />
+                <ScalarProperty Name="TenCombo" ColumnName="TenCombo" />
+                <ScalarProperty Name="GiaCombo" ColumnName="GiaCombo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Flights">
+            <EntityTypeMapping TypeName="TravelVNModel.Flight">
+              <MappingFragment StoreEntitySet="Flight">
+                <ScalarProperty Name="MaFlight" ColumnName="MaFlight" />
+                <ScalarProperty Name="TenFlight" ColumnName="TenFlight" />
+                <ScalarProperty Name="HangBay" ColumnName="HangBay" />
+                <ScalarProperty Name="LoaiMayBay" ColumnName="LoaiMayBay" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Hotels">
+            <EntityTypeMapping TypeName="TravelVNModel.Hotel">
+              <MappingFragment StoreEntitySet="Hotels">
+                <ScalarProperty Name="MaKhachSan" ColumnName="MaKhachSan" />
+                <ScalarProperty Name="TenKhachSan" ColumnName="TenKhachSan" />
+                <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+                <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+                <ScalarProperty Name="HinhAnh" ColumnName="HinhAnh" />
+                <ScalarProperty Name="MaTinh" ColumnName="MaTinh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LoaiPhongs">
+            <EntityTypeMapping TypeName="TravelVNModel.LoaiPhong">
+              <MappingFragment StoreEntitySet="LoaiPhong">
+                <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+                <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LoaiTours">
+            <EntityTypeMapping TypeName="TravelVNModel.LoaiTour">
+              <MappingFragment StoreEntitySet="LoaiTour">
+                <ScalarProperty Name="MaLoaiTour" ColumnName="MaLoaiTour" />
+                <ScalarProperty Name="TenLoaiTour" ColumnName="TenLoaiTour" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrderBookings">
+            <EntityTypeMapping TypeName="TravelVNModel.OrderBooking">
+              <MappingFragment StoreEntitySet="OrderBooking">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="Dob" ColumnName="Dob" />
+                <ScalarProperty Name="Requests" ColumnName="Requests" />
+                <ScalarProperty Name="RoomType" ColumnName="RoomType" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="CheckinDate" ColumnName="CheckinDate" />
+                <ScalarProperty Name="CheckoutDate" ColumnName="CheckoutDate" />
+                <ScalarProperty Name="RoomQuantity" ColumnName="RoomQuantity" />
+                <ScalarProperty Name="BookingDate" ColumnName="BookingDate" />
+                <ScalarProperty Name="MaKhachSan" ColumnName="MaKhachSan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Phongs">
+            <EntityTypeMapping TypeName="TravelVNModel.Phong">
+              <MappingFragment StoreEntitySet="Phong">
+                <ScalarProperty Name="MaPhong" ColumnName="MaPhong" />
+                <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+                <ScalarProperty Name="MaTrangThai" ColumnName="MaTrangThai" />
+                <ScalarProperty Name="MaKhachSan" ColumnName="MaKhachSan" />
+                <ScalarProperty Name="MaUser" ColumnName="MaUser" />
+                <ScalarProperty Name="Gia" ColumnName="Gia" />
+                <ScalarProperty Name="Hinh" ColumnName="Hinh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RevenueSummaries">
+            <EntityTypeMapping TypeName="TravelVNModel.RevenueSummary">
+              <MappingFragment StoreEntitySet="RevenueSummary">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="TotalRoomsBooked" ColumnName="TotalRoomsBooked" />
+                <ScalarProperty Name="TotalRevenue" ColumnName="TotalRevenue" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="TravelVNModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TinhThanhs">
+            <EntityTypeMapping TypeName="TravelVNModel.TinhThanh">
+              <MappingFragment StoreEntitySet="TinhThanh">
+                <ScalarProperty Name="MaTinh" ColumnName="MaTinh" />
+                <ScalarProperty Name="TenTinh" ColumnName="TenTinh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tours">
+            <EntityTypeMapping TypeName="TravelVNModel.Tour">
+              <MappingFragment StoreEntitySet="Tour">
+                <ScalarProperty Name="MaTour" ColumnName="MaTour" />
+                <ScalarProperty Name="TenTour" ColumnName="TenTour" />
+                <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+                <ScalarProperty Name="NgayKhoiHanh" ColumnName="NgayKhoiHanh" />
+                <ScalarProperty Name="ThoiGian" ColumnName="ThoiGian" />
+                <ScalarProperty Name="Gia" ColumnName="Gia" />
+                <ScalarProperty Name="MaLoaiTour" ColumnName="MaLoaiTour" />
+                <ScalarProperty Name="HinhAnh" ColumnName="HinhAnh" />
+                <ScalarProperty Name="PhuongTien" ColumnName="PhuongTien" />
+                <ScalarProperty Name="MaTinh" ColumnName="MaTinh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TourBookings">
+            <EntityTypeMapping TypeName="TravelVNModel.TourBooking">
+              <MappingFragment StoreEntitySet="TourBooking">
+                <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="Dob" ColumnName="Dob" />
+                <ScalarProperty Name="Requests" ColumnName="Requests" />
+                <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+                <ScalarProperty Name="TourId" ColumnName="TourId" />
+                <ScalarProperty Name="BookingDate" ColumnName="BookingDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TrangThaiPhongs">
+            <EntityTypeMapping TypeName="TravelVNModel.TrangThaiPhong">
+              <MappingFragment StoreEntitySet="TrangThaiPhong">
+                <ScalarProperty Name="MaTrangThai" ColumnName="MaTrangThai" />
+                <ScalarProperty Name="TenTrangThai" ColumnName="TenTrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="TravelVNModel.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="MaUser" ColumnName="MaUser" />
+                <ScalarProperty Name="TenUser" ColumnName="TenUser" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="ComboChuyenBay" TypeName="TravelVNModel.ComboChuyenBay" StoreEntitySet="ComboChuyenBay">
+            <EndProperty Name="Combo">
+              <ScalarProperty Name="MaCombo" ColumnName="MaCombo" />
+            </EndProperty>
+            <EndProperty Name="Flight">
+              <ScalarProperty Name="MaFlight" ColumnName="MaFlight" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="ComboKhachSan" TypeName="TravelVNModel.ComboKhachSan" StoreEntitySet="ComboKhachSan">
+            <EndProperty Name="Combo">
+              <ScalarProperty Name="MaCombo" ColumnName="MaCombo" />
+            </EndProperty>
+            <EndProperty Name="Hotels">
+              <ScalarProperty Name="MaKhachSan" ColumnName="MaKhachSan" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="ComboTour" TypeName="TravelVNModel.ComboTour" StoreEntitySet="ComboTour">
+            <EndProperty Name="Combo">
+              <ScalarProperty Name="MaCombo" ColumnName="MaCombo" />
+            </EndProperty>
+            <EndProperty Name="Tour">
+              <ScalarProperty Name="MaTour" ColumnName="MaTour" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
