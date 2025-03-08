@@ -1,0 +1,118 @@
+﻿@model IEnumerable<VietTravel.Models.Admin>
+
+@{
+    ViewBag.Title = "Quản Lý Quản Trị Viên";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="containermain">
+    <h2>Quản Lý Quản Trị Viên</h2>
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.First().TenAdmin)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().VaiTro)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().Username)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().Passwords)</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.TenAdmin)</td>
+                        <td>@Html.DisplayFor(modelItem => item.VaiTro)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Username)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Passwords)</td>
+                        <td class="action-buttons">
+                            @Html.ActionLink("Chỉnh sửa", "Edit", new { id = item.MaAdmin }, new { @class = "btn btn-primary" })
+                            @Html.ActionLink("Chi tiết", "Details", new { id = item.MaAdmin }, new { @class = "btn btn-primary" })
+                            @Html.ActionLink("Xóa", "Delete", new { id = item.MaAdmin }, new { @class = "btn btn-primary" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-6" style="display: flex; justify-content: flex-start;">
+            <a href="@Url.Action("AdminHome", "Account")" class="btn btn-primary">
+                Quay lại
+            </a>
+        </div>
+        <div class="col-md-6" style="display: flex; justify-content: flex-end;">
+            <a href="@Url.Action("Create", "Admins")" class="btn btn-primary">
+                Thêm
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .containermain {
+        margin: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table {
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+    }
+
+        .table th, .table td {
+            padding: 12px 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .table th {
+        background-color: #154583;
+        color: white;
+        font-weight: bold;
+    }
+
+    .action-buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .btn-primary {
+        background-color: #154583;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 10px;
+        transition: background-color 0.3s ease, transform 0.2s;
+        text-decoration: none;
+        text-align: center;
+        margin: 0 5px;
+    }
+
+        .btn-primary:hover {
+            background-color: #6f6f6f;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+   
+
+    .form-group {
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+</style>

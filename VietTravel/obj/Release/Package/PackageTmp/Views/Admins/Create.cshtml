@@ -1,0 +1,170 @@
+﻿@model VietTravel.Models.Admin
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Tạo mới quản trị viên</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Quản trị viên</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaAdmin, htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.MaAdmin, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MaAdmin, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TenAdmin, htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.TenAdmin, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TenAdmin, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.VaiTro, htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.VaiTro, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.VaiTro, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Passwords, htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.Passwords, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Passwords, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="button-container">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                <a href="@Url.Action("Index")" class="btn btn-secondary">Quay Lại</a>
+            </div>
+        </div>
+    </div>
+}
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+
+    h2, h4 {
+        color: #343a40;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    .form-horizontal {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        text-align: right;
+        padding-right: 10px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .input-container {
+        width: 100%;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], select {
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        transition: border-color 0.3s;
+    }
+
+        input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+    input[type="submit"], .btn {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    input[type="submit"] {
+        background-color: #154583;
+        color: white;
+    }
+
+        input[type="submit"]:hover, .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-secondary {
+        text-align: center;
+        text-decoration: none;
+        background-color: #ccc;
+        color: black;
+    }
+
+        .btn-secondary:hover {
+            background-color: #aaa;
+        }
+
+    .text-danger {
+        color: #dc3545;
+        font-size: 0.9rem;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .action-link {
+        display: inline-block;
+        margin-top: 20px;
+        color: #007bff;
+    }
+
+        .action-link:hover {
+            text-decoration: underline;
+        }
+</style>

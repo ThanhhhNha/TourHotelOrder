@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="948c8d946d8b4616b99c393d4a5082a0" Name="Diagram1">
+        <EntityTypeShape EntityType="TravelVNModel.Admin" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.Combo" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.Flight" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.Hotel" Width="1.5" PointX="6" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.LoaiPhong" Width="1.5" PointX="9" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.LoaiTour" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.OrderBooking" Width="1.5" PointX="8.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.Phong" Width="1.5" PointX="11.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.RevenueSummary" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.TinhThanh" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.Tour" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.TourBooking" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.TrangThaiPhong" Width="1.5" PointX="9" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelVNModel.User" Width="1.5" PointX="9" PointY="14.375" IsExpanded="true" />
+        <AssociationConnector Association="TravelVNModel.FK__Hotels__MaTinh__420DC656" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.FK__OrderBook__MaKha__5614BF03" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.FK__Phong__MaKhachSa__49AEE81E" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.FK__Phong__MaLoai__47C69FAC" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.FK__Tour__MaLoaiTour__505BE5AD" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.FK__Phong__MaTrangTh__48BAC3E5" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.FK__Phong__MaUser__4AA30C57" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.FK__Tour__MaTinh__4F67C174" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.FK__TourBooki__TourI__69279377" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.ComboChuyenBay" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.ComboKhachSan" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelVNModel.ComboTour" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

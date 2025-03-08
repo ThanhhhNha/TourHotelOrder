@@ -1,0 +1,425 @@
+﻿@model VietTravel.Models.Tour
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="containerdetails">
+    <div class="breadcrumb">
+        <a href="#">Trang chủ</a> &gt; <a href="#">Chi tiết tour</a>
+    </div>
+
+    <div class="title">
+        @Html.DisplayFor(model => model.TenTour)
+    </div>
+
+    <div class="main-content">
+        <div class="thumbnails">
+            <img alt="@Html.DisplayFor(model => model.TenTour)" src="~/image/tour/@Model.HinhAnh" />
+        </div>
+        <div class="info">
+            <h4>Thông tin chuyến đi</h4>
+            <dl class="dl-horizontal">
+                <dt><i class="fas fa-info-circle"></i> Mô tả:</dt>
+                <dd>@Html.DisplayFor(model => model.MoTa)</dd>
+                <dt><i class="fas fa-calendar-alt"></i> Ngày khởi hành:</dt>
+                <dd>@Html.DisplayFor(model => model.NgayKhoiHanh)</dd>
+                <dt><i class="fas fa-clock"></i> Thời gian:</dt>
+                <dd>@Html.DisplayFor(model => model.ThoiGian)</dd>
+                <dt><i class="fas fa-tag"></i> Loại tour:</dt>
+                <dd>@Html.DisplayFor(model => model.LoaiTour.TenLoaiTour)</dd>
+                <dt><i class="fas fa-map-marker-alt"></i> Tỉnh:</dt>
+                <dd>@Html.DisplayFor(model => model.TinhThanh.TenTinh)</dd>
+            </dl>
+            <div class="price">
+                @(Model.Gia.ToString("N0") + " ₫/khách")
+            </div>
+
+            <a class="btn" href="@Url.Action("PaymentTour", "Booking", new { id = Model.MaTour })">Đặt ngay</a>
+            <a class="btn" href="https://webcall.talking.vn/frame-click-to-call/new?code=tCEZl1-MKPuA6JU-czVAScCb0pPkHmPt" target="_blank" rel="noopener noreferrer">
+                Gọi ngay miễn phí qua internet
+            </a>
+
+        </div>
+    </div>
+
+    <div class="info">
+        <h2>THÔNG TIN THÊM VỀ CHUYẾN ĐI</h2>
+        <div class="icons">
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Điểm tham quan</p>
+            </div>
+            <div>
+                <i class="fas fa-utensils"></i>
+                <p>Ẩm thực</p>
+            </div>
+            <div>
+                <i class="fas fa-hotel"></i>
+                <p>Khách sạn</p>
+            </div>
+            <div>
+                <i class="fas fa-bus"></i>
+                <p>Phương tiện</p>
+            </div>
+            <div>
+                <i class="fas fa-tags"></i>
+                <p>Khuyến mãi</p>
+            </div>
+        </div>
+    </div>
+    <div class="note">
+        <h1>NHỮNG THÔNG TIN CẦN LƯU Ý</h1>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Giá tour bao gồm
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>- Xe tham quan (16, 29, 35, 45 chỗ tùy theo số lượng khách) theo chương trình</p>
+                    <p>- Vé máy bay khứ hồi SGN - Nơi đi - SGN</p>
+                    <p>- Tăng 20 kg hành lý ký gửi & 7 kg xách tay</p>
+                    <p>- Khách sạn theo tiêu chuẩn 2 khách/phòng hoặc 3 khách/phòng (lẻ khách)</p>
+                    <p>Liệt kê hệ thống khách sạn tham khảo, tùy ngày khởi hành, giá tour tiêu chuẩn khách sạn khác nhau</p>
+                    <p>🏨 tương đương 3 sao: Flora, Anh Thảo, Osaka... (Không gần biển)</p>
+                    <p>🏨 tương đương 4 sao: Seagull, Sài Gòn, Mường Thanh,...(đối diện biển, có hồ bơi)</p>
+                    <p>- Vé tham quan theo chương trình</p>
+                    <p>- Các bữa ăn chính theo chương trình từ 120.000-140.000VNĐ/bữa</p>
+                    <p>- Hướng dẫn viên tiếng Việt nói tuyến</p>
+                    <p>- Bảo hiểm du lịch với mức bồi thường cao nhất 120.000.000đ/vụ</p>
+                    <p>- Nón Vietravel + Nước suối + Khăn lạnh</p>
+                    <p>- Thuế VAT</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Giá tour không bao gồm
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>
+                        - Chi phí cá nhân: ăn uống ngoài chương trình chiều ngày 2, giặt ủi, chi phí hủy đổi hành trình và nâng hạng chuyến bay, hành lý quá cước, phụ thu phòng đơn,…
+                        - Chi phí tham quan ngoài chương trình
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Lưu ý về trẻ em
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>- Trẻ em dưới 5 tuổi: không thu phí dịch vụ, bố mẹ tự lo cho bé và thanh toán các chi phí phát sinh (đối với các dịch vụ tính phí theo chiều cao…). Hai người lớn chỉ được kèm 1 trẻ em dưới 5 tuổi, trẻ em thứ 2 sẽ đóng phí theo qui định dành cho độ tuổi từ 5 đến dưới 12 tuổi và phụ thu phòng đơn. Vé máy bay, tàu hỏa, phương tiện vận chuyển công cộng mua vé theo qui định của các đơn vị vận chuyển.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Điều kiện thanh toán
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>
+                        - Khi đăng ký đặt cọc 50% số tiền tour
+                        - Số tiền còn lại thanh toán hết trước ngày khởi hành 7-10 ngày (áp dụng tour ngày thường), trước ngày khởi hành 20-25 ngày (áp dụng tour lễ tết)''
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Điều kiện đăng ký
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>Content for Điều kiện đăng ký</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Lưu ý về chuyển hoặc hủy tour
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>Sau khi thanh toán tiền, nếu Quý khách muốn chuyển/hủy tour xin vui lòng mang Vé Du Lịch đến văn phòng đăng ký tour để làm thủ tục chuyển/hủy tour và chịu chi phí hủy tour theo quy định của Vietravel. Không giải quyết các trường hợp liên hệ chuyển/hủy tour qua điện thoại.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Các điều kiện hủy tour đối với ngày thường
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>- Được chuyển sang các tuyến du lịch khác trước ngày khởi hành 20 ngày: Không mất chi phí.</p>
+                    <p>- Nếu hủy hoặc chuyển sang các chuyến du lịch khác ngay sau khi đăng ký đến 15-19 ngày trước ngày khởi hành: Chịu phạt 50% tiền cọc tour.</p>
+                    <p>- Nếu hủy chuyển sang các chuyến du lịch khác từ 12-14 ngày trước ngày khởi hành: Chịu phạt 100% tiền cọc tour.</p>
+                    <p>- Nếu hủy chuyển du lịch trong vòng từ 08-11 ngày trước ngày khởi hành: Chịu phạt 50% trên giá tour.</p>
+                    <p>- Nếu hủy chuyển du lịch trong vòng từ 05-07 ngày trước ngày khởi hành: Chịu phạt 70% trên giá tour.</p>
+                    <p>- Nếu hủy chuyển du lịch trong vòng từ 02-04 ngày trước ngày khởi hành: Chịu phạt 90% trên giá tour.</p>
+                    <p>- Nếu hủy chuyển du lịch trong vòng 01 ngày trước ngày khởi hành: Chịu phạt 100% trên giá tour.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Các điều kiện hủy tour đối với ngày lễ, Tết
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>Content for Các điều kiện hủy tour đối với ngày lễ, Tết</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Trường hợp bất khả kháng
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>Content for Trường hợp bất khả kháng</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Liên hệ
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>
+                        Mọi chi tiết vui lòng liên hệ:
+                        KHỐI KHÁCH LẺ - DU LỊCH TRONG NƯỚC
+                        190 PASTEUR, PHƯỜNG 6, QUẬN 3, TP.HCM
+                        Điện thoại: (84-28) 3822 8898 Hotline: 0938 301 399
+                        Tổng đài tư vấn: 1900 1839
+                        Email: quynhpnt.fit@vietravel.com
+
+                        VIETRAVEL KÍNH CHÚC QUÝ KHÁCH MỘT CHUYẾN DU LỊCH VUI VẺ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>document.querySelectorAll('.accordion-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                const icon = header.querySelector('i');
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                } else {
+                    content.style.display = 'block';
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                }
+            });
+        });</script>
+    @*<p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.MaTour }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>*@
+</div>
+
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .containerdetails {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .breadcrumb {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+        .breadcrumb a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .breadcrumb a:hover {
+                text-decoration: underline;
+            }
+
+    .title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .main-content .thumbnails img {
+            width: 800px;
+            border-radius: 8px;
+        }
+
+    .info {
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .info h2 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .info .icons {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+            .info .icons div {
+                flex: 1 1 18%;
+                text-align: center;
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #e0e0e0;
+                border-radius: 8px;
+                background-color: #f9f9f9;
+                transition: background-color 0.3s;
+            }
+
+                .info .icons div:hover {
+                    background-color: #e0f7fa;
+                }
+
+                .info .icons div i {
+                    font-size: 28px;
+                    color: #007bff;
+                    margin-bottom: 5px;
+                }
+
+                .info .icons div p {
+                    font-size: 16px;
+                    color: #333;
+                }
+
+    .dl-horizontal {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+    }
+
+        .dl-horizontal dt {
+            flex: 1 0 30%;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+            .dl-horizontal dt i {
+                margin-right: 8px;
+                color: #007bff;
+            }
+
+        .dl-horizontal dd {
+            flex: 1 0 65%;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .dl-horizontal dt, .dl-horizontal dd {
+            padding: 10px 15px;
+        }
+    .btn {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding: 12px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: background-color 0.3s, transform 0.2s; 
+        cursor: pointer; 
+    }
+
+        .btn:hover {
+            background-color: #0056b3; 
+            transform: translateY(-2px); 
+        }
+
+        .btn:active {
+            background-color: #004085; 
+            transform: translateY(0); 
+        }
+    .price {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ff5722; 
+        margin-top: 15px; 
+        margin-bottom: 15px;       
+        padding: 10px; 
+
+        
+    }
+    .note {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .accordion {
+        margin-bottom: 20px;
+    }
+
+    .accordion-item {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .accordion-header {
+        background-color: #f7f7f7;
+        padding: 10px 15px;
+        cursor: pointer;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .accordion-header:hover {
+            background-color: #e7e7e7;
+        }
+
+    .accordion-content {
+        display: none;
+        padding: 15px;
+        border-top: 1px solid #ddd;
+    }
+
+        .accordion-content p {
+            margin: 0;
+        }
+</style>

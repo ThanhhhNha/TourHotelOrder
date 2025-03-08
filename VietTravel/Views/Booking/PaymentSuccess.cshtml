@@ -1,0 +1,125 @@
+﻿@{
+    ViewBag.Title = "PaymentSuccess";
+}
+
+<div class="containerpayment">
+    <div class="steps">
+        <div class="inactive">
+            <span>1</span>
+            <p>NHẬP THÔNG TIN</p>
+        </div>
+        <div class="inactive">
+            <span>2</span>
+            <p>THANH TOÁN</p>
+        </div>
+        <div class="active">
+            <span>3</span>
+            <p>HOÀN TẤT</p>
+        </div>
+    </div>
+    <div class="success-message">
+        <h2>Thanh toán thành công!</h2>
+        <p>Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi.</p>
+    </div>
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+
+    <button type="button" class="back-btn" onclick="window.location.href='@Url.Action("Home", "Home")'">Quay lại trang chủ</button>
+
+</div>
+<style>
+    .containerpayment {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 50px auto;
+        text-align: center;
+    }
+    .steps {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+  }
+
+      .steps div {
+          flex: 1;
+          text-align: center;
+      }
+
+      .steps .active {
+          font-weight: bold;
+          color: #007bff;
+      }
+
+      .steps .inactive {
+          color: #999;
+      }
+
+/*    .steps {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+        .steps div {
+            width: 30%;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+    .inactive {
+        background-color: #e0e0e0;
+        color: #777;
+    }
+
+    .active {
+        background-color: #4caf50;
+        color: white;
+        font-weight: bold;
+    }
+
+    .steps span {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }*/
+
+
+    .success-message h2 {
+        color: #154583;
+        margin-bottom: 10px;
+    }
+
+    .success-message p {
+        color: #333;
+        font-size: 16px;
+    }
+
+    .back-btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #f44336;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .back-btn:hover {
+            background-color: #d32f2f;
+        }
+
+</style>

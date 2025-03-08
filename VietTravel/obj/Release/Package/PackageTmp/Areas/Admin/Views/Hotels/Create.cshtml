@@ -1,0 +1,171 @@
+﻿@model VietTravel.Models.Hotel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Tạo Khách Sạn</h2>
+
+@using (Html.BeginForm("Create", "Hotels", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Khách Sạn</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            Mã Khách Sạn:
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MaKhachSan, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MaKhachSan, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Tên Khách Sạn:
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TenKhachSan, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TenKhachSan, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Địa Chỉ:
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DiaChi, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DiaChi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Mô Tả:
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MoTa, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MoTa, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Hình Ảnh:
+            <div class="input-container">
+                <input type="file" name="Hinh" class="form-control" accept="image/*" />
+                @Html.ValidationMessageFor(model => model.HinhAnh, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Tỉnh Thành:
+            <div class="col-md-10">
+                @Html.DropDownList("MaTinh", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.MaTinh, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="button-container">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                <a href="@Url.Action("Index")" class="btn btn-secondary">Quay lại</a>
+            </div>
+        </div>
+    </div>
+}
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+
+    h2, h4 {
+        color: #343a40;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .form-horizontal {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .control-label {
+        color: #333;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .input-container {
+        width: 100%;
+    }
+
+    .form-control {
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #4285f4;
+            box-shadow: 0 0 8px rgba(66, 133, 244, 0.3);
+        }
+
+    .text-danger {
+        color: #d9534f;
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    input[type="submit"], .btn {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"] {
+        background-color: #154583;
+        color: white;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-secondary {
+        background-color: #ccc;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        .btn-secondary:hover {
+            background-color: #aaa;
+        }
+</style>

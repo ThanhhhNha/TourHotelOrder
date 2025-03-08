@@ -1,0 +1,118 @@
+﻿@model VietTravel.Models.TourBooking
+
+@{
+    ViewBag.Title = "Xóa";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Xóa</h2>
+<h3>Bạn chắc chắn muốn xóa?</h3>
+
+<div>
+    <h4>Đơn đặt Tour</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(model => model.Name)</dt>
+        <dd>@Html.DisplayFor(model => model.Name)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Email)</dt>
+        <dd>@Html.DisplayFor(model => model.Email)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Phone)</dt>
+        <dd>@Html.DisplayFor(model => model.Phone)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Title)</dt>
+        <dd>@Html.DisplayFor(model => model.Title)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.FullName)</dt>
+        <dd>@Html.DisplayFor(model => model.FullName)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Dob)</dt>
+        <dd>@Html.DisplayFor(model => model.Dob)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Requests)</dt>
+        <dd>@Html.DisplayFor(model => model.Requests)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.PaymentMethod)</dt>
+        <dd>@Html.DisplayFor(model => model.PaymentMethod)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Tour.TenTour)</dt>
+        <dd>@Html.DisplayFor(model => model.Tour.TenTour)</dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("Quay lại", "Index")
+        </div>
+    }
+</div>
+
+<style>
+    .dl-horizontal {
+        background-color: #fff3f3;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #f5c6c6;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+        .dl-horizontal dt {
+            font-weight: bold;
+            color: #d9534f;
+            width: 180px;
+            float: left;
+            clear: left;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .dl-horizontal dd {
+            margin-left: 190px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+    h2, h3 {
+        text-align: center;
+        color: #d9534f;
+        font-weight: bold;
+    }
+
+    hr {
+        border-top: 2px solid #eee;
+    }
+
+    .form-actions {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    input[type="submit"] {
+        background-color: #d9534f;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #c9302c;
+        }
+
+    a {
+        color: #0275d8;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
