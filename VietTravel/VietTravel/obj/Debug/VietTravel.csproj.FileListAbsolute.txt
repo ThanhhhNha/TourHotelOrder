@@ -164,3 +164,14 @@ D:\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.CoreCompileInputs.
 D:\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.Up2Date
 D:\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.dll
 D:\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.pdb
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Configuration.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Container.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Mvc.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Mvc5.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\WebActivatorEx.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Abstractions.pdb
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Configuration.pdb
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Container.pdb
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Mvc.pdb
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Mvc.xml
