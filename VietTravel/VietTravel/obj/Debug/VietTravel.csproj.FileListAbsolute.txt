@@ -175,3 +175,346 @@ D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Configuration.pdb
 D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Container.pdb
 D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Mvc.pdb
 D:\DA(DAPM)\VietTravel\VietTravel\bin\Unity.Mvc.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\VietTravel.dll.config
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\VietTravel.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\VietTravel.pdb
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csc.exe
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csc.exe.config
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csc.rsp
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csi.exe
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csi.exe.config
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csi.rsp
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Buffers.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Memory.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\vbc.exe
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\vbc.exe.config
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\vbc.rsp
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\VBCSCompiler.exe
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Antlr3.Runtime.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\EntityFramework.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\EntityFramework.SqlServer.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Options.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.Security.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Newtonsoft.Json.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Owin.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\PayPal.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Buffers.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.ComponentModel.Annotations.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.IO.Pipelines.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Memory.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Net.Http.Formatting.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Numerics.Vectors.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Security.Principal.Windows.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Text.Encodings.Web.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Threading.Channels.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Helpers.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Http.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Http.WebHost.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Mvc.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Optimization.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Razor.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.Razor.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\WebGrease.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\EntityFramework.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\EntityFramework.SqlServer.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.Common.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Common.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Core.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebSockets.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Options.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.Security.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\PayPal.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Buffers.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.IO.Pipelines.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Memory.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Net.Http.Formatting.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Numerics.Vectors.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Text.Encodings.Web.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Threading.Channels.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Helpers.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Http.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Http.WebHost.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Mvc.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Razor.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.Razor.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Optimization.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Newtonsoft.Json.xml
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\bin\Antlr3.Runtime.pdb
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.AssemblyReference.cache
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.Up2Date
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\obj\Debug\VietTravel.dll
+C:\Users\ACER\OneDrive\Tài liệu\GitHub\TourHotelOrder\VietTravel\VietTravel\obj\Debug\VietTravel.pdb
+D:\TourHotelOrder\VietTravel\VietTravel\bin\VietTravel.dll.config
+D:\TourHotelOrder\VietTravel\VietTravel\bin\VietTravel.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\VietTravel.pdb
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csc.exe
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csc.exe.config
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csc.rsp
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csi.exe
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csi.exe.config
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\csi.rsp
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Buffers.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Collections.Immutable.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Memory.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Numerics.Vectors.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Reflection.Metadata.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\vbc.exe
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\vbc.exe.config
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\vbc.rsp
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\VBCSCompiler.exe
+D:\TourHotelOrder\VietTravel\VietTravel\bin\roslyn\VBCSCompiler.exe.config
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Antlr3.Runtime.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\EntityFramework.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\EntityFramework.SqlServer.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Common.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Core.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebSockets.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.ObjectPool.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Options.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Primitives.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Net.Http.Headers.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.Security.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Web.Infrastructure.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Newtonsoft.Json.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Owin.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\PayPal.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Buffers.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.ComponentModel.Annotations.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.IO.Pipelines.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Memory.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Net.Http.Formatting.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Net.WebSockets.WebSocketProtocol.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Numerics.Vectors.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Security.Principal.Windows.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Text.Encodings.Web.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Threading.Channels.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Threading.Tasks.Extensions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Helpers.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Http.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Http.WebHost.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Mvc.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Optimization.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Razor.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.Deployment.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.Razor.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Unity.Abstractions.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Unity.Configuration.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Unity.Container.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Unity.Mvc.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Unity.Mvc5.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\WebActivatorEx.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\WebGrease.dll
+D:\TourHotelOrder\VietTravel\VietTravel\bin\EntityFramework.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\EntityFramework.SqlServer.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Connections.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.Common.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Common.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Core.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebSockets.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.ObjectPool.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Options.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Extensions.Primitives.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Net.Http.Headers.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Microsoft.Owin.Security.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.pdb
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\PayPal.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Buffers.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.IO.Pipelines.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Memory.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Net.Http.Formatting.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Numerics.Vectors.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Text.Encodings.Web.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Threading.Channels.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Threading.Tasks.Extensions.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Helpers.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Http.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Http.WebHost.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Mvc.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Razor.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.Deployment.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.WebPages.Razor.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\System.Web.Optimization.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Newtonsoft.Json.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Unity.Abstractions.pdb
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Unity.Configuration.pdb
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Unity.Container.pdb
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Unity.Mvc.pdb
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Unity.Mvc.xml
+D:\TourHotelOrder\VietTravel\VietTravel\bin\Antlr3.Runtime.pdb
+D:\TourHotelOrder\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.AssemblyReference.cache
+D:\TourHotelOrder\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.CoreCompileInputs.cache
+D:\TourHotelOrder\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.Up2Date
+D:\TourHotelOrder\VietTravel\VietTravel\obj\Debug\VietTravel.dll
+D:\TourHotelOrder\VietTravel\VietTravel\obj\Debug\VietTravel.pdb

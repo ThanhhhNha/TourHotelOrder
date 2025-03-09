@@ -1,0 +1,143 @@
+﻿@model VietTravel.Models.Phong
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Xóa</h2>
+
+<h3>Bạn muốn xóa phòng này?</h3>
+<div>
+    <h4>Phòng</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Gia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hotel.TenKhachSan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hotel.TenKhachSan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoaiPhong.TenLoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiPhong.TenLoai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrangThaiPhong.TenTrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TrangThaiPhong.TenTrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.TenUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.TenUser)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Quay lại", "Index")
+        </div>
+    }
+</div>
+<style>
+    <style >
+    .dl-horizontal {
+        background-color: #fff3f3;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #f5c6c6;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .dl-horizontal dt {
+        font-weight: bold;
+        color: #d9534f;
+        width: 180px;
+        float: left;
+        clear: left;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 190px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    h2, h3 {
+        text-align: center;
+        color: #d9534f;
+        font-weight: bold;
+    }
+
+    hr {
+        border-top: 2px solid #eee;
+    }
+
+    .form-actions {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    input[type="submit"] {
+        background-color: #d9534f;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #c9302c;
+        }
+
+    a {
+        color: #0275d8;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+</style>

@@ -1,0 +1,391 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|d:\\mau thiet ke pm\\doan\\da(dapm)\\da(dapm)\\viettravel\\viettravel\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Home\\Home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Views\\Home\\Home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\areas\\admin\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\areas\\admin\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\BookingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Controllers\\BookingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\views\\tours\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\views\\tours\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\views\\booking\\paymenttour.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\views\\booking\\paymenttour.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\controllers\\tourscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\controllers\\tourscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\views\\tours\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\views\\tours\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\viettravel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:viettravel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\ListHotels\\HotelsDetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Views\\ListHotels\\HotelsDetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Home\\ListHotels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Views\\Home\\ListHotels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Booking\\PaymentSuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Views\\Booking\\PaymentSuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Booking\\Payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Views\\Booking\\Payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Account\\Account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E3F45EA-E828-4BFF-9372-1F9EA95E3A86}|VietTravel\\VietTravel.csproj|solutionrelative:VietTravel\\Views\\Account\\Account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Tours\\Details.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Tours\\Details.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Tours\\Details.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Tours\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T09:55:11.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VietTravel\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VietTravel\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAgwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T09:48:56.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T13:07:14.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Areas\\Admin\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "VietTravel\\Areas\\Admin\\Controllers\\HotelsController.cs",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Areas\\Admin\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "VietTravel\\Areas\\Admin\\Controllers\\HotelsController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:10:31.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Web.config",
+              "RelativeDocumentMoniker": "VietTravel\\Web.config",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Web.config",
+              "RelativeToolTip": "VietTravel\\Web.config",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-12T13:34:52.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Home\\Home.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Home\\Home.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Home\\Home.cshtml",
+              "ViewState": "AgIAAGUBAAAAAAAAAAASwG4BAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T05:58:15.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "VietTravel\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "VietTravel\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:05:41.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "VietTravel\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "VietTravel\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:05:57.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Account\\Edit.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Account\\Edit.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Account\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T00:56:00.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "VietTravel\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "VietTravel\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAA3wDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:07:17.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ToursController.cs",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\ToursController.cs",
+              "RelativeDocumentMoniker": "VietTravel\\Controllers\\ToursController.cs",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\ToursController.cs",
+              "RelativeToolTip": "VietTravel\\Controllers\\ToursController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwFAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T09:48:19.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T13:56:56.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "VietTravel\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "VietTravel\\Controllers\\BookingController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAgwHEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:30:17.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Tours\\Create.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Tours\\Create.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Tours\\Create.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Tours\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T07:02:21.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentTour.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Booking\\PaymentTour.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Booking\\PaymentTour.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Booking\\PaymentTour.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Booking\\PaymentTour.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T10:04:53.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "VietTravel\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "VietTravel\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAkwIgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:48:57.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Global.asax.cs",
+              "RelativeDocumentMoniker": "VietTravel\\Global.asax.cs",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Global.asax.cs",
+              "RelativeToolTip": "VietTravel\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:23:01.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HotelsDetail.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\ListHotels\\HotelsDetail.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\ListHotels\\HotelsDetail.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\ListHotels\\HotelsDetail.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\ListHotels\\HotelsDetail.cshtml",
+              "ViewState": "AQIAAI8BAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T15:29:30.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAAH4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T14:57:03.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ListHotels.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Home\\ListHotels.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Home\\ListHotels.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Home\\ListHotels.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Home\\ListHotels.cshtml",
+              "ViewState": "AQIAALcAAAAAAAAAAAAAAL8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T01:50:49.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PaymentSuccess.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Booking\\PaymentSuccess.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Booking\\PaymentSuccess.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Booking\\PaymentSuccess.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Booking\\PaymentSuccess.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAACwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T15:56:48.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Payment.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Booking\\Payment.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Booking\\Payment.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Booking\\Payment.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Booking\\Payment.cshtml",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAJAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T15:55:23.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Account.cshtml",
+              "DocumentMoniker": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Account\\Account.cshtml",
+              "RelativeDocumentMoniker": "VietTravel\\Views\\Account\\Account.cshtml",
+              "ToolTip": "D:\\Mau Thiet Ke PM\\DoAn\\DA(DAPM)\\DA(DAPM)\\VietTravel\\VietTravel\\Views\\Account\\Account.cshtml",
+              "RelativeToolTip": "VietTravel\\Views\\Account\\Account.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T17:27:07.293Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

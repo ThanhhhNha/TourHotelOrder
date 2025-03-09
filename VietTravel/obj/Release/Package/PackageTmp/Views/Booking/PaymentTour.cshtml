@@ -1,0 +1,299 @@
+﻿@model VietTravel.Models.Tour
+@{
+    ViewBag.Title = "Payment for Tour";
+}
+<html>
+<head>
+    <title>Đặt Vé Tour</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="containerpayment">
+        <div class="steps">
+            <div class="active">
+                <span>1</span>
+                <p>NHẬP THÔNG TIN</p>
+            </div>
+            <div class="inactive">
+                <span>2</span>
+                <p>THANH TOÁN</p>
+            </div>
+            <div class="inactive">
+                <span>3</span>
+                <p>HOÀN TẤT</p>
+            </div>
+        </div>
+        <form action="/Booking/ConfirmBooking" method="post" onsubmit="return validateForm();">
+            <input type="hidden" name="TourId" value="@Model.MaTour" />
+            <div class="section">
+                <h2>THÔNG TIN LIÊN LẠC</h2>
+                <div class="form-group">
+                    <label for="name">Họ tên:</label>
+                    <input type="text" id="name" name="Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Số điện thoại:</label>
+                    <input type="tel" id="phone" name="Phone" required>
+                </div>
+            </div>
+            <div class="section">
+                <h2>THÔNG TIN HÀNH KHÁCH</h2>
+                <div class="form-group">
+                    <label for="title">Giới tính:</label>
+                    <select id="title" name="Title">
+                        <option value="mr">Ông</option>
+                        <option value="mrs">Bà</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="fullname">Họ tên đầy đủ:</label>
+                    <input type="text" id="fullname" name="FullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Ngày sinh:</label>
+                    <input type="date" id="dob" name="Dob" required>
+                </div>
+            </div>
+            <div class="section">
+                <h3>QUÝ KHÁCH CÓ THÊM YÊU CẦU GÌ VỀ TOUR KHÔNG?</h3>
+                <div class="form-group">
+                    <textarea id="requests" name="Requests" rows="4" placeholder="Vui lòng nhập yêu cầu của bạn"></textarea>
+                </div>
+            </div>
+            <div class="section">
+                <h2>CHỌN HÌNH THỨC THANH TOÁN</h2>
+                <div class="payment-methods">
+                    <div class="method">
+                        <input type="radio" id="payment-cash" name="PaymentMethod" value="cash" required>
+                        <label for="payment-cash"><i class="fas fa-money-bill-wave"></i> Thanh toán khi nhận tour</label>
+                    </div>
+                    <div class="method">
+                        <input type="radio" id="payment-paypal" name="PaymentMethod" value="PayPal" required>
+                        <label for="payment-paypal"><i class="fas fa-credit-card"></i> PayPal</label>
+                    </div>
+
+                    <div class="method">
+                        <input type="radio" id="payment-momo" name="PaymentMethod" value="MoMo" required>
+                        <label for="payment-momo"><i class="fas fa-mobile-alt"></i> Thanh toán qua MoMo</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="order-summary-section">
+                <h3><i class="fas fa-shopping-cart"></i> Tóm tắt đơn hàng @Html.DisplayFor(model => model.TenTour)</h3>
+                @if (Model != null)
+                {
+                    <div class="order-summary-details">
+                        <dt><i class="fas fa-info-circle"></i> Mô tả:</dt>
+                        <dd>@Html.DisplayFor(model => model.MoTa)</dd>
+                        <dt><i class="fas fa-calendar-alt"></i> Ngày khởi hành:</dt>
+                        <dd>@Html.DisplayFor(model => model.NgayKhoiHanh)</dd>
+                        <dt><i class="fas fa-clock"></i> Thời gian:</dt>
+                        <dd>@Html.DisplayFor(model => model.ThoiGian)</dd>
+                        <dt><i class="fas fa-tag"></i> Loại tour:</dt>
+                        <dd>@Html.DisplayFor(model => model.LoaiTour.TenLoaiTour)</dd>
+                        <dt><i class="fas fa-map-marker-alt"></i> Tỉnh:</dt>
+                        <dd>@Html.DisplayFor(model => model.TinhThanh.TenTinh)</dd>
+                        <dt><i class="fas fa-money-bill-wave"></i> Giá:</dt>
+                        <dd>@(Model.Gia.ToString("N0") + " ₫/khách")</dd>
+                    </div>
+                }
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Xác nhận</button>
+        </form>
+    </div>
+</body>
+</html>
+<script>
+    //Paypal
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('input[name="paymentMethod"]').forEach(function (input) {
+            input.addEventListener('change', function () {
+                document.getElementById('payment-form').submit();
+            });
+        });
+    });
+    //
+    function validateForm() {
+        const phone = document.getElementById('phone').value;
+        const phonePattern = /^\d{10}$/; 
+
+        if (!phonePattern.test(phone)) {
+            alert('Số điện thoại không đúng định dạng! (Phải là 10 chữ số)');
+            return false;
+        }
+
+        const dobInput = document.getElementById('dob').value;
+        if (!dobInput) {
+            alert('Vui lòng nhập ngày sinh!');
+            return false;
+        }
+
+        const dob = new Date(dobInput);
+        const today = new Date();
+        const age = today.getFullYear() - dob.getFullYear();
+        const monthDiff = today.getMonth() - dob.getMonth();
+        const dayDiff = today.getDate() - dob.getDate();
+
+        if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+            age--; 
+        }
+
+        if (age < 18) {
+            alert('Bạn phải đủ 18 tuổi để đặt vé!');
+            return false;
+        }
+
+        return true; 
+    }
+</script>
+
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f5f5f5;
+        padding: 20px;
+    }
+
+    .containerpayment {
+        max-width: 800px;
+        margin: 55px auto 50px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .steps {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+        .steps div {
+            flex: 1;
+            text-align: center;
+        }
+
+        .steps .active {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .steps .inactive {
+            color: #999;
+        }
+
+    .section {
+        margin-bottom: 30px;
+    }
+
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group input[type="date"],
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+            .form-group input[type="text"]:focus,
+            .form-group input[type="email"]:focus,
+            .form-group input[type="tel"]:focus,
+            .form-group input[type="date"]:focus,
+            .form-group select:focus,
+            .form-group textarea:focus {
+                border-color: #007bff;
+                outline: none;
+            }
+
+        .form-group textarea {
+            resize: vertical;
+        }
+
+    .payment-methods {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .method {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .method:hover {
+            background-color: #e9ecef;
+        }
+
+    .order-summary-section {
+        background: #f9f9f9;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .order-summary-section h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #007bff;
+            border-bottom: 1px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+            .order-summary-section h3 i {
+                margin-right: 10px;
+                color: #007bff;
+            }
+
+    .order-summary-details {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .total {
+        font-size: 18px;
+        font-weight: 700;
+        color: #e74c3c;
+        text-align: right;
+        margin-top: 20px;
+    }
+</style>
