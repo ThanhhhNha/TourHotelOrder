@@ -583,6 +583,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Views\PaymentMethod\" />
     <Folder Include="Views\TourService\" />
     <Folder Include="Views\Tour\" />
   </ItemGroup>
