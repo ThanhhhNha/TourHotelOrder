@@ -7,9 +7,92 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using VietTravel.Models;
+using VietTravel.Repositories;
 
 namespace VietTravel
 {
+    public class AdminsController : Controller
+    {
+        private readonly IAdminRepository _adminRepository;
+
+        public AdminsController()
+        {
+            _adminRepository = AdminRepositoryFactory.CreateRepository();
+        }
+
+        public ActionResult Index()
+        {
+            return View(_adminRepository.GetAll());
+        }
+
+        public ActionResult Details(string id)
+        {
+            if (id == null) return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+
+            var admin = _adminRepository.GetById(id);
+            if (admin == null) return HttpNotFound();
+
+            return View(admin);
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Admin admin)
+        {
+            if (ModelState.IsValid)
+            {
+                _adminRepository.Add(admin);
+                return RedirectToAction("Index");
+            }
+            return View(admin);
+        }
+
+        public ActionResult Edit(string id)
+        {
+            if (id == null) return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+
+            var admin = _adminRepository.GetById(id);
+            if (admin == null) return HttpNotFound();
+
+            return View(admin);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Admin admin)
+        {
+            if (ModelState.IsValid)
+            {
+                _adminRepository.Update(admin);
+                return RedirectToAction("Index");
+            }
+            return View(admin);
+        }
+
+        public ActionResult Delete(string id)
+        {
+            if (id == null) return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+
+            var admin = _adminRepository.GetById(id);
+            if (admin == null) return HttpNotFound();
+
+            return View(admin);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(string id)
+        {
+            _adminRepository.Delete(id);
+            return RedirectToAction("Index");
+        }
+    }
+    /*
     public class AdminsController : Controller
     {
         private TravelVNEntities db = new TravelVNEntities();
@@ -124,4 +207,5 @@ namespace VietTravel
             base.Dispose(disposing);
         }
     }
+    */
 }
