@@ -30,13 +30,11 @@ namespace VietTravel.Areas.Admin.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Hotel hotel = db.Hotels.Find(id);
-            if (hotel == null)
-            {
-                return HttpNotFound();
-            }
+
+            Hotel hotel = db.Hotels.Find(id) ?? new NullHotel();
             return View(hotel);
         }
+
 
         // GET: Admin/Hotels/Create
         public ActionResult Create()
@@ -94,14 +92,12 @@ namespace VietTravel.Areas.Admin.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Hotel hotel = db.Hotels.Find(id);
-            if (hotel == null)
-            {
-                return HttpNotFound();
-            }
+
+            Hotel hotel = db.Hotels.Find(id) ?? new NullHotel();
             ViewBag.MaTinh = new SelectList(db.TinhThanhs, "MaTinh", "TenTinh", hotel.MaTinh);
             return View(hotel);
         }
+
 
         // POST: Admin/Hotels/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
@@ -127,11 +123,8 @@ namespace VietTravel.Areas.Admin.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Hotel hotel = db.Hotels.Find(id);
-            if (hotel == null)
-            {
-                return HttpNotFound();
-            }
+
+            Hotel hotel = db.Hotels.Find(id) ?? new NullHotel();
             return View(hotel);
         }
 
@@ -141,6 +134,11 @@ namespace VietTravel.Areas.Admin.Controllers
         public ActionResult DeleteConfirmed(string id)
         {
             Hotel hotel = db.Hotels.Find(id);
+            if (hotel == null)
+            {
+                return HttpNotFound(); // Trả về lỗi thay vì cố gắng xóa null object
+            }
+
             db.Hotels.Remove(hotel);
             db.SaveChanges();
             return RedirectToAction("Index");

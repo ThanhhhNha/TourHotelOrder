@@ -333,6 +333,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\NullHotels.cs" />
     <Compile Include="Models\OrderBooking.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -343,6 +344,10 @@
     <Compile Include="Models\RevenueSummary.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\RoomProcessing\CreateRoomProcessor.cs" />
+    <Compile Include="Models\RoomProcessing\DeleteRoomProcessor.cs" />
+    <Compile Include="Models\RoomProcessing\EditRoomProcessor.cs" />
+    <Compile Include="Models\RoomProcessing\RoomProcessor.cs" />
     <Compile Include="Models\sysdiagram.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
