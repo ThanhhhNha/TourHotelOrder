@@ -12,8 +12,6 @@ using VietTravel.Models;
 
 namespace VietTravel.Areas.Admin.Controllers
 {
-    [Authorize(Roles = "Admin")]
-
     public class HotelsController : Controller
     {
         private TravelVNEntities db = new TravelVNEntities();

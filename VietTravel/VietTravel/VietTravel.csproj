@@ -398,9 +398,6 @@
     <Compile Include="Services\RevenueService.cs" />
     <Compile Include="Services\TourService.cs" />
     <Compile Include="DataAccess\IUnitOfWork.cs" />
-    <Compile Include="ZaloPay\Config\ZalopayConfig.cs" />
-    <Compile Include="ZaloPay\Request\CreateZalopayPayRequest.cs" />
-    <Compile Include="ZaloPay\Response\CreateZalopayPayResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
