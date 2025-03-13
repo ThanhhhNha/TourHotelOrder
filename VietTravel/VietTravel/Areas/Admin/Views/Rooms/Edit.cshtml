@@ -10,7 +10,7 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>Phong</h4>
         <hr />
@@ -42,20 +42,21 @@
         </div>
 
         @*<div class="form-group">
-            @Html.LabelFor(model => model.MaUser, "MaUser", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownList("MaUser", null, htmlAttributes: new { @class = "form-control" })
-                @Html.ValidationMessageFor(model => model.MaUser, "", new { @class = "text-danger" })
-            </div>
-        </div>*@
+                @Html.LabelFor(model => model.MaUser, "MaUser", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("MaUser", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.MaUser, "", new { @class = "text-danger" })
+                </div>
+            </div>*@
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Gia, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Gia, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.LabelFor(model => model.Gia, htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.Gia, new { htmlAttributes = new { @class = "form-control", id = "Gia" } })
                 @Html.ValidationMessageFor(model => model.Gia, "", new { @class = "text-danger" })
             </div>
         </div>
+
 
         <div class="form-group">
             @Html.LabelFor(model => model.Hinh, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -75,6 +76,19 @@
 }
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("form").submit(function (e) {
+            var gia = parseFloat($("#Gia").val()); // Lấy giá trị Giá Phòng
+            if (isNaN(gia) || gia < 0) {
+                alert("Giá phòng không được âm. Vui lòng nhập lại!");
+                e.preventDefault(); // Ngăn form submit
+            }
+        });
+    });
+</script>
 
 <style>
     .form-horizontal {
@@ -155,5 +169,4 @@
     a.btn.btn-secondary {
         text-decoration: none;
     }
-
 </style>

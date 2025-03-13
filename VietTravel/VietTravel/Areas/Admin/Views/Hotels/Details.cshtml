@@ -5,55 +5,137 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Details</h2>
+<h2>Chi tiết Hotel</h2>
 
 <div>
-    <h4>Hotel</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.TenKhachSan)
-        </dt>
+    <div class="details-container">
+        <h4>Thông tin Khách Sạn</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>@Html.DisplayNameFor(model => model.TenKhachSan)</dt>
+            <dd>@Html.DisplayFor(model => model.TenKhachSan)</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TenKhachSan)
-        </dd>
+            <dt>@Html.DisplayNameFor(model => model.DiaChi)</dt>
+            <dd>@Html.DisplayFor(model => model.DiaChi)</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.DiaChi)
-        </dt>
+            <dt>@Html.DisplayNameFor(model => model.MoTa)</dt>
+            <dd>@Html.DisplayFor(model => model.MoTa)</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.DiaChi)
-        </dd>
+            <dt>@Html.DisplayNameFor(model => model.HinhAnh)</dt>
+            <dd>@Html.DisplayFor(model => model.HinhAnh)</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.MoTa)
-        </dt>
+            <dt>@Html.DisplayNameFor(model => model.TinhThanh.TenTinh)</dt>
+            <dd>@Html.DisplayFor(model => model.TinhThanh.TenTinh)</dd>
+        </dl>
+    </div>
+    <p class="btn-group">
+        @Html.ActionLink("Edit", "Edit", new { id = Model.MaKhachSan }, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Back to List", "Index", new { @class = "btn btn-secondary" })
+    </p>
 
-        <dd>
-            @Html.DisplayFor(model => model.MoTa)
-        </dd>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
 
-        <dt>
-            @Html.DisplayNameFor(model => model.HinhAnh)
-        </dt>
+        h2 {
+            text-align: center;
+            color: #343a40;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
 
-        <dd>
-            @Html.DisplayFor(model => model.HinhAnh)
-        </dd>
+        hr {
+            margin: 10px 0;
+            border-top: 2px solid #ddd;
+        }
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TinhThanh.TenTinh)
-        </dt>
+        .details-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-        <dd>
-            @Html.DisplayFor(model => model.TinhThanh.TenTinh)
-        </dd>
+        .dl-horizontal {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+        }
 
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.MaKhachSan }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+            .dl-horizontal dt {
+                font-weight: bold;
+                color: #444;
+                width: 35%;
+                margin-bottom: 10px;
+            }
+
+            .dl-horizontal dd {
+                width: 60%;
+                margin-bottom: 10px;
+                color: #666;
+            }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+            a:hover {
+                text-decoration: underline;
+                color: #0056b3;
+            }
+
+        p {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+            transform: scale(1.05);
+        }
+
+        .btn-group {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .btn-group a {
+                margin: 5px;
+            }
+    </style>

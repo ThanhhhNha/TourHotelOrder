@@ -41,10 +41,12 @@ namespace VietTravel.Areas.Admin.Controllers
 
         public ActionResult Logout()
         {
-            Session.Remove("user");
-            FormsAuthentication.SignOut();
+            Session.Clear();  // Xóa toàn bộ session
+            FormsAuthentication.SignOut(); // Hủy cookie đăng nhập
+
             return RedirectToAction("AdminLogin", "Account", new { area = "Admin" });
         }
+
 
         [HttpPost]
         public ActionResult AdminLogin(string username, string password)
@@ -53,8 +55,13 @@ namespace VietTravel.Areas.Admin.Controllers
 
             if (admin != null)
             {
+                // Đặt session cho admin
                 Session["user"] = admin;
                 Session["userName"] = admin.Username;
+
+                // Tạo cookie xác thực Forms Authentication
+                FormsAuthentication.SetAuthCookie(admin.Username, false);
+
                 return RedirectToAction("AdminHome", "Account", new { area = "Admin" });
             }
             else
@@ -63,6 +70,7 @@ namespace VietTravel.Areas.Admin.Controllers
                 return RedirectToAction("AdminLogin", "Account", new { area = "Admin" });
             }
         }
+
         public ActionResult AdminAccount(string id)
         {
             if (string.IsNullOrEmpty(id))

@@ -11,89 +11,103 @@
 {
     @Html.AntiForgeryToken()
 
-<div class="form-horizontal">
-    <h4>Thông tin phòng</h4>
-    <hr />
-    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-horizontal">
+        <h4>Thông tin phòng</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-    @* Mã phòng *@
-    <div class="form-group">
-        @Html.LabelFor(model => model.MaPhong, htmlAttributes: new { @class = "control-label" })
-        <div class="input-container">
-            @Html.EditorFor(model => model.MaPhong, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.MaPhong, "", new { @class = "text-danger" })
+        @* Mã phòng *@
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaPhong, htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.MaPhong, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MaPhong, "", new { @class = "text-danger" })
+            </div>
         </div>
-    </div>
 
-    @* Mã loại *@
-    <div class="form-group">
-        @Html.LabelFor(model => model.MaLoai, "Loại phòng", htmlAttributes: new { @class = "control-label" })
-        <div class="input-container">
-            @Html.DropDownList("MaLoai", null, htmlAttributes: new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.MaLoai, "", new { @class = "text-danger" })
+        @* Mã loại *@
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaLoai, "Loại phòng", htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.DropDownList("MaLoai", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.MaLoai, "", new { @class = "text-danger" })
+            </div>
         </div>
-    </div>
 
-    @* Mã trạng thái *@
-    <div class="form-group">
-        @Html.LabelFor(model => model.MaTrangThai, "Trạng thái phòng", htmlAttributes: new { @class = "control-label" })
-        <div class="input-container">
-            @Html.DropDownList("MaTrangThai", null, htmlAttributes: new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.MaTrangThai, "", new { @class = "text-danger" })
+        @* Mã trạng thái *@
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaTrangThai, "Trạng thái phòng", htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.DropDownList("MaTrangThai", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.MaTrangThai, "", new { @class = "text-danger" })
+            </div>
         </div>
-    </div>
 
-    @* Mã khách sạn *@
-    <div class="form-group">
-        @Html.LabelFor(model => model.MaKhachSan, "Khách sạn", htmlAttributes: new { @class = "control-label" })
-        <div class="input-container">
-            @Html.DropDownList("MaKhachSan", null, htmlAttributes: new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.MaKhachSan, "", new { @class = "text-danger" })
+        @* Mã khách sạn *@
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaKhachSan, "Khách sạn", htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.DropDownList("MaKhachSan", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.MaKhachSan, "", new { @class = "text-danger" })
+            </div>
         </div>
-    </div>
 
-    @* Mã người dùng *@
-    <!--<div class="form-group">
-        @Html.LabelFor(model => model.MaUser, "Người quản lý", htmlAttributes: new { @class = "control-label" })
-        <div class="input-container">
-            @Html.DropDownList("MaUser", null, htmlAttributes: new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.MaUser, "", new { @class = "text-danger" })
+        @* Mã người dùng *@
+        <!--<div class="form-group">
+            @Html.LabelFor(model => model.MaUser, "Người quản lý", htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.DropDownList("MaUser", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.MaUser, "", new { @class = "text-danger" })
+            </div>
+        </div>-->
+        @* Giá *@
+        <div class="form-group">
+            @Html.LabelFor(model => model.Gia, htmlAttributes: new { @class = "control-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.Gia, new { htmlAttributes = new { @class = "form-control", type = "number", min = "0" } })
+                @Html.ValidationMessageFor(model => model.Gia, "", new { @class = "text-danger" })
+            </div>
         </div>
-    </div>-->
-    @* Giá *@
-    <div class="form-group">
-        @Html.LabelFor(model => model.Gia, htmlAttributes: new { @class = "control-label" })
-        <div class="input-container">
-            @Html.EditorFor(model => model.Gia, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.Gia, "", new { @class = "text-danger" })
-        </div>
-    </div>
 
-    @* Hình ảnh *@
-    <div class="form-group">
-        @Html.LabelFor(model => model.Hinh, htmlAttributes: new { @class = "control-label" })
-        <div class="input-container">
-            <input type="file" name="Hinh" class="form-control" accept="image/*" />
-            @Html.ValidationMessageFor(model => model.Hinh, "", new { @class = "text-danger" })
-        </div>
-    </div>
-    @*<div class="form-group">
+
+        @* Hình ảnh *@
+        <div class="form-group">
             @Html.LabelFor(model => model.Hinh, htmlAttributes: new { @class = "control-label" })
             <div class="input-container">
-                @Html.EditorFor(model => model.Hinh, new { htmlAttributes = new { @class = "form-control" } })
+                <input type="file" name="Hinh" class="form-control" accept="image/*" />
                 @Html.ValidationMessageFor(model => model.Hinh, "", new { @class = "text-danger" })
             </div>
-        </div>*@
+        </div>
+        @*<div class="form-group">
+                @Html.LabelFor(model => model.Hinh, htmlAttributes: new { @class = "control-label" })
+                <div class="input-container">
+                    @Html.EditorFor(model => model.Hinh, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Hinh, "", new { @class = "text-danger" })
+                </div>
+            </div>*@
 
-    @* Buttons *@
-    <div class="form-group">
-        <div class="button-container">
-            <input type="submit" value="Tạo mới" class="btn btn-primary" />
-            <a href="@Url.Action("Index")" class="btn btn-secondary">Quay lại</a>
+        @* Buttons *@
+        <div class="form-group">
+            <div class="button-container">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                <a href="@Url.Action("Index")" class="btn btn-secondary">Quay lại</a>
+            </div>
         </div>
     </div>
-</div>
 }
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector("form").addEventListener("submit", function (event) {
+            var giaInput = document.querySelector("input[name='Gia']");
+            if (parseFloat(giaInput.value) < 0) {
+                event.preventDefault(); // Ngăn form gửi đi
+                alert("Giá phòng không được âm. Vui lòng nhập lại!");
+                giaInput.focus();
+            }
+        });
+    });
+</script>
+
 
 <style>
     body {
@@ -187,6 +201,5 @@
         justify-content: space-between;
         margin-top: 20px;
     }
-
 </style>
 

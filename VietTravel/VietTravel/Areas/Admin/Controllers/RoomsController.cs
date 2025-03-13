@@ -52,6 +52,12 @@ namespace VietTravel.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(Phong phong, HttpPostedFileBase Hinh)
         {
+            // Kiểm tra nếu giá nhỏ hơn 0
+            if (phong.Gia < 0)
+            {
+                ModelState.AddModelError("", "Giá phòng không được âm.");
+            }
+
             if (ModelState.IsValid)
             {
                 if (Hinh != null && Hinh.ContentLength > 0)
@@ -59,23 +65,23 @@ namespace VietTravel.Areas.Admin.Controllers
                     var fileName = Path.GetFileName(Hinh.FileName);
                     var path = Path.Combine(Server.MapPath("~/Uploads/Images/"), fileName);
                     Hinh.SaveAs(path);
-
-                    phong.Hinh = "/Uploads/Images/" + fileName; 
+                    phong.Hinh = "/Uploads/Images/" + fileName;
                 }
 
                 db.Phongs.Add(phong);
                 db.SaveChanges();
-
-                return RedirectToAction("Index"); 
+                return RedirectToAction("Index");
             }
 
+            // Nếu có lỗi, hiển thị lại form với thông báo lỗi
             ViewBag.MaKhachSan = new SelectList(db.Hotels, "MaKhachSan", "TenKhachSan", phong.MaKhachSan);
             ViewBag.MaLoai = new SelectList(db.LoaiPhongs, "MaLoai", "TenLoai", phong.MaLoai);
             ViewBag.MaTrangThai = new SelectList(db.TrangThaiPhongs, "MaTrangThai", "TenTrangThai", phong.MaTrangThai);
             ViewBag.MaUser = new SelectList(db.Users, "MaUser", "TenUser", phong.MaUser);
 
-            return View(phong); 
+            return View(phong);
         }
+
 
         // GET: Admin/Rooms/Edit/5
         public ActionResult Edit(string id)
@@ -103,18 +109,28 @@ namespace VietTravel.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "MaPhong,MaLoai,MaTrangThai,MaKhachSan,MaUser,Gia,Hinh")] Phong phong)
         {
+            // Kiểm tra nếu giá nhỏ hơn 0
+            if (phong.Gia < 0)
+            {
+                ModelState.AddModelError("", "Giá phòng không được âm.");
+            }
+
             if (ModelState.IsValid)
             {
                 db.Entry(phong).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
+            // Nếu có lỗi, hiển thị lại form với thông báo lỗi
             ViewBag.MaKhachSan = new SelectList(db.Hotels, "MaKhachSan", "TenKhachSan", phong.MaKhachSan);
             ViewBag.MaLoai = new SelectList(db.LoaiPhongs, "MaLoai", "TenLoai", phong.MaLoai);
             ViewBag.MaTrangThai = new SelectList(db.TrangThaiPhongs, "MaTrangThai", "TenTrangThai", phong.MaTrangThai);
             ViewBag.MaUser = new SelectList(db.Users, "MaUser", "TenUser", phong.MaUser);
+
             return View(phong);
         }
+
 
         // GET: Admin/Rooms/Delete/5
         public ActionResult Delete(string id)

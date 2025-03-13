@@ -317,6 +317,9 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ListHotelsController.cs" />
     <Compile Include="Controllers\ToursController.cs" />
+    <Compile Include="DataAccess\UnitOfWork.cs" />
+    <Compile Include="Factories\HotelFactory.cs" />
+    <Compile Include="Factories\IHotelFactory.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -384,9 +387,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AdminRepository.cs" />
     <Compile Include="Repositories\AdminRepositoryFactory.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
+    <Compile Include="Repositories\HotelRepository.cs" />
     <Compile Include="Repositories\IAdminRepository.cs" />
+    <Compile Include="Repositories\IGenericRepository.cs" />
+    <Compile Include="Repositories\IHotelRepository.cs" />
     <Compile Include="Repositories\IUserRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Services\ITourService.cs" />
+    <Compile Include="Services\RevenueService.cs" />
+    <Compile Include="Services\TourService.cs" />
+    <Compile Include="DataAccess\IUnitOfWork.cs" />
     <Compile Include="ZaloPay\Config\ZalopayConfig.cs" />
     <Compile Include="ZaloPay\Request\CreateZalopayPayRequest.cs" />
     <Compile Include="ZaloPay\Response\CreateZalopayPayResponse.cs" />
@@ -608,8 +619,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Views\TourService\" />
-    <Folder Include="Views\Tour\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
