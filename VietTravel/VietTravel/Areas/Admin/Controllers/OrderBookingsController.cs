@@ -2,10 +2,12 @@
 using System.Net;
 using System.Web.Mvc;
 using VietTravel.DataAccess;
+using VietTravel.Filters;
 using VietTravel.Models;
 
 namespace VietTravel.Areas.Admin.Controllers
 {
+    [AdminAuthorize]
     public class OrderBookingsController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

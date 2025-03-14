@@ -9,9 +9,11 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using VietTravel.Models;
+using VietTravel.Filters;
 
 namespace VietTravel.Areas.Admin.Controllers
 {
+    [AdminAuthorize]
     public class HotelsController : Controller
     {
         private TravelVNEntities db = new TravelVNEntities();

@@ -320,6 +320,7 @@
     <Compile Include="DataAccess\UnitOfWork.cs" />
     <Compile Include="Factories\HotelFactory.cs" />
     <Compile Include="Factories\IHotelFactory.cs" />
+    <Compile Include="Filters\AdminAuthorizeAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -1,11 +1,13 @@
 ﻿using System.Net;
 using System.Web.Mvc;
+using VietTravel.Filters;
 using VietTravel.Models;
 using VietTravel.Repositories;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace VietTravel.Areas.Admin.Controllers
 {
+    [AdminAuthorize]
     ///Repository Pattern : Tách biệt giữa logic truy cập dữ liệu và Controller.Dễ dàng test hơn vì có thể mock IUserRepository. Dễ dàng bảo trì và mở rộng hệ thống.
     public class UsersController : Controller
     {

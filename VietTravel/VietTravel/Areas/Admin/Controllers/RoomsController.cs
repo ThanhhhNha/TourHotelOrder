@@ -7,10 +7,12 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using VietTravel.Filters;
 using VietTravel.Models;
 
 namespace VietTravel.Areas.Admin.Controllers
 {
+    [AdminAuthorize]
     public class RoomsController : Controller
     {
         private TravelVNEntities db = new TravelVNEntities();

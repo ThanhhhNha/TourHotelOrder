@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Web.Mvc;
+using VietTravel.Filters;
 using VietTravel.Models;
 using VietTravel.Services;
 
 namespace VietTravel.Areas.Admin.Controllers
 {
+    [AdminAuthorize]
     //Facade Pattern: Controller nhẹ hơn: Không chứa logic tính toán dữ liệu.
     //Tách biệt trách nhiệm: Controller lo việc điều hướng, còn RevenueService xử lý dữ liệu.
     //Dễ bảo trì & mở rộng: Nếu cần thay đổi cách tính doanh thu, chỉ cần sửa RevenueService
