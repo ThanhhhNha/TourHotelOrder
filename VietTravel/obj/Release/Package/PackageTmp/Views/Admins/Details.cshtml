@@ -1,0 +1,124 @@
+﻿@model VietTravel.Models.Admin
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Chi tiết Quản Trị Viên</h2>
+
+<div class="admin-details">
+    <h4>Thông Tin Quản Trị Viên</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenAdmin)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TenAdmin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VaiTro)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VaiTro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Passwords)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Passwords)
+        </dd>
+    </dl>
+</div>
+
+<div class="action-buttons">
+    <p>
+        @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.MaAdmin }, new { @class = "btn btn-primary" }) 
+        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-secondary" })
+    </p>
+</div>
+
+<style>
+    .admin-details {
+        margin: 20px;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #154583;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    hr {
+        border: 1px solid #154583;
+        margin-bottom: 20px;
+    }
+
+    .dl-horizontal {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .dl-horizontal dt {
+            font-weight: bold;
+            color: #154583;
+        }
+
+        .dl-horizontal dd {
+            margin-left: 0;
+            margin-bottom: 15px;
+            padding: 5px;
+            background-color: #fff;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+    .action-buttons {
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-right: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary {
+        background-color: #154583;
+        color: white;
+    }
+
+        .btn-primary:hover {
+            background-color: #6f6f6f;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+</style>

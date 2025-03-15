@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "ConfirmBooking";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model VietTravel.Models.TourBooking
+
+<h2>Xác Nhận Đặt Tour</h2>
+
+<form method="post" action="@Url.Action("ConfirmBooking", "Booking")">
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+
+    <div>
+        @Html.LabelFor(m => m.Email)
+        @Html.TextBoxFor(m => m.Email)
+        @Html.ValidationMessageFor(m => m.Email)
+    </div>
+
+    <!-- Thêm các trường khác cần thiết ở đây -->
+
+    <button type="submit">Xác Nhận Đặt Tour</button>
+</form>
+
+

@@ -1,0 +1,332 @@
+D:\DA(DAPM)\VietTravel\VietTravel\bin\VietTravel.dll.config
+D:\DA(DAPM)\VietTravel\VietTravel\bin\VietTravel.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\VietTravel.pdb
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csc.exe
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csc.exe.config
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csc.rsp
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csi.exe
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csi.exe.config
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csi.rsp
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Buffers.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Collections.Immutable.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Memory.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Numerics.Vectors.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Reflection.Metadata.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\vbc.exe
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\vbc.exe.config
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\vbc.rsp
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\VBCSCompiler.exe
+D:\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\VBCSCompiler.exe.config
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Antlr3.Runtime.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\EntityFramework.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\EntityFramework.SqlServer.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Common.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Core.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebSockets.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.ObjectPool.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Options.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Primitives.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Net.Http.Headers.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.Security.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Web.Infrastructure.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Newtonsoft.Json.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Owin.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\PayPal.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Buffers.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.ComponentModel.Annotations.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.IO.Pipelines.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Memory.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Net.Http.Formatting.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Net.WebSockets.WebSocketProtocol.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Numerics.Vectors.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Security.Principal.Windows.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Text.Encodings.Web.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Threading.Channels.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Threading.Tasks.Extensions.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Helpers.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Http.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Http.WebHost.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Mvc.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Optimization.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Razor.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.Deployment.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.Razor.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\WebGrease.dll
+D:\DA(DAPM)\VietTravel\VietTravel\bin\EntityFramework.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\EntityFramework.SqlServer.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Connections.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.Common.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Common.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Core.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebSockets.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.ObjectPool.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Options.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Primitives.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Net.Http.Headers.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.Security.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.pdb
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\PayPal.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Buffers.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.IO.Pipelines.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Memory.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Net.Http.Formatting.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Numerics.Vectors.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Text.Encodings.Web.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Threading.Channels.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Threading.Tasks.Extensions.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Helpers.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Http.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Http.WebHost.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Mvc.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Razor.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.Deployment.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.Razor.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Optimization.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Newtonsoft.Json.xml
+D:\DA(DAPM)\VietTravel\VietTravel\bin\Antlr3.Runtime.pdb
+D:\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.AssemblyReference.cache
+D:\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.CoreCompileInputs.cache
+D:\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.Up2Date
+D:\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.dll
+D:\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.pdb
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\VietTravel.dll.config
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\VietTravel.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\VietTravel.pdb
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csc.exe
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csc.exe.config
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csc.rsp
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csi.exe
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csi.exe.config
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\csi.rsp
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Buffers.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Collections.Immutable.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Memory.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Numerics.Vectors.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Reflection.Metadata.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\vbc.exe
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\vbc.exe.config
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\vbc.rsp
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\VBCSCompiler.exe
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\roslyn\VBCSCompiler.exe.config
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Antlr3.Runtime.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\EntityFramework.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\EntityFramework.SqlServer.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebSockets.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.ObjectPool.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Options.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Primitives.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Net.Http.Headers.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.Security.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Web.Infrastructure.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Newtonsoft.Json.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Owin.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\PayPal.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Buffers.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.ComponentModel.Annotations.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.IO.Pipelines.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Memory.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Net.Http.Formatting.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Net.WebSockets.WebSocketProtocol.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Numerics.Vectors.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Security.Principal.Windows.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Text.Encodings.Web.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Threading.Channels.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Threading.Tasks.Extensions.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Helpers.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Http.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Http.WebHost.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Mvc.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Optimization.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Razor.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.Deployment.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.Razor.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\WebGrease.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\EntityFramework.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\EntityFramework.SqlServer.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Connections.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Connections.Common.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Common.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Core.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebSockets.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.ObjectPool.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Options.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Extensions.Primitives.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Net.Http.Headers.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Microsoft.Owin.Security.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.pdb
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Newtonsoft.Json.Bson.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\PayPal.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Buffers.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.IO.Pipelines.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Memory.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Net.Http.Formatting.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Numerics.Vectors.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Text.Encodings.Web.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Threading.Channels.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Threading.Tasks.Extensions.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Helpers.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Http.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Http.WebHost.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Mvc.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Razor.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.Deployment.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.WebPages.Razor.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\System.Web.Optimization.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Newtonsoft.Json.xml
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\bin\Antlr3.Runtime.pdb
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.AssemblyReference.cache
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.CoreCompileInputs.cache
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.csproj.Up2Date
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.dll
+D:\Mau Thiet Ke PM\DoAn\DA(DAPM)\DA(DAPM)\VietTravel\VietTravel\obj\Debug\VietTravel.pdb
